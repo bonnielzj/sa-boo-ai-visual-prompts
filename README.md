@@ -29,3 +29,23 @@
 - `sa-boo-design-research-radar/references/mcp-reserve.md`
 
 同时追加 `automation_notes/weekly_update_sa_boo_prompt_mcp.md`，记录每周自动更新 SA&BOO 视觉 Prompt 与 MCP 储备的任务说明。
+
+## 视觉资产链表与向量索引
+
+本仓库现在不仅包含 Markdown 口令，还包含本地视觉资产索引系统：
+
+- `visual_assets/visual_asset_linked_list.md`：可浏览的本地缩略图链表
+- `visual_assets/asset_graph.json`：节点 + 边的视觉资产图谱
+- `visual_assets/cache/thumbs/`：低分辨率本地预览图，避免外链失效
+- `vector_index/visual_asset_vectors.json`：本地文本语义向量索引
+- `scripts/search_visual_assets.py`：命令行语义搜索工具
+
+示例：
+
+```bash
+python3 scripts/search_visual_assets.py "Texture Check 触觉材质"
+python3 scripts/search_visual_assets.py "dark chrome retrofuture 液态银"
+python3 scripts/search_visual_assets.py "戏剧感 小红书封面 聚光灯"
+```
+
+版权边界：第三方视觉缓存仅用于内部研究和索引，不作为自有商用素材直接再分发。
