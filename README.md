@@ -18,3 +18,14 @@
 - 不复制趋势，而是把趋势转译为可控视觉变量。
 - 不只写“高级感”，必须写清：材质、光线、构图、留白、镜头、颜色与约束。
 - 文字多的画面，建议先生成背景/主体，再在 Figma、Canva 或 PPT 中排版。
+
+## Codex Skills Backup
+
+本仓库已追加 `codex_skills/`，用于备份和协作以下已经强化过的 SA&BOO AI 视觉 skills：
+
+- `sa-boo-visual-style-prompt-lab`
+- `sa-boo-prompt-translator`
+- `sa-boo-style-mixer`
+- `sa-boo-design-research-radar/references/mcp-reserve.md`
+
+同时追加 `automation_notes/weekly_update_sa_boo_prompt_mcp.md`，记录每周自动更新 SA&BOO 视觉 Prompt 与 MCP 储备的任务说明。

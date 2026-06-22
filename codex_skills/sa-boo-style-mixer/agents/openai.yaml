@@ -1,0 +1,4 @@
+interface:
+  display_name: "SA&BOO Style Mixer"
+  short_description: "Generate multiple SA&BOO style prompt variants."
+  default_prompt: "Use SA&BOO Style Mixer to make 6 style variants for [theme]."
