@@ -1,0 +1,32 @@
+{
+  "entry_asset_id": "logicat_r16_qa_01_all_extents_outlier_visible",
+  "assets": [
+    {
+      "asset_id": "logicat_r16_qa_01_all_extents_outlier_visible",
+      "thumbnail_path": "/Users/bonnie/Documents/设计项目/logicat_popup_su/assets/visual_cache/R16_QA/thumbs/R16_QA_01_all_extents_outlier_visible_thumb.jpg",
+      "local_original_path": "/Users/bonnie/Documents/设计项目/logicat_popup_su/assets/visual_cache/R16_QA/R16_QA_01_all_extents_outlier_visible.png",
+      "prev_id": null,
+      "next_id": "logicat_r16_qa_02_top_design_range_bad_cad_hidden",
+      "title": "R16 QA all extents with outlier visible",
+      "quality_notes": "Readable as failure evidence; not presentation asset. Shows abnormal extents caused by oversized CAD reference."
+    },
+    {
+      "asset_id": "logicat_r16_qa_02_top_design_range_bad_cad_hidden",
+      "thumbnail_path": "/Users/bonnie/Documents/设计项目/logicat_popup_su/assets/visual_cache/R16_QA/thumbs/R16_QA_02_top_8x9_design_range_bad_cad_hidden_thumb.jpg",
+      "local_original_path": "/Users/bonnie/Documents/设计项目/logicat_popup_su/assets/visual_cache/R16_QA/R16_QA_02_top_8x9_design_range_bad_cad_hidden.png",
+      "prev_id": "logicat_r16_qa_01_all_extents_outlier_visible",
+      "next_id": "logicat_r16_qa_03_top_plan_cad_scale_clean",
+      "title": "R16 QA top 8x9 design range with bad CAD hidden",
+      "quality_notes": "Low file size but useful intermediate proof; not final presentation."
+    },
+    {
+      "asset_id": "logicat_r16_qa_03_top_plan_cad_scale_clean",
+      "thumbnail_path": "/Users/bonnie/Documents/设计项目/logicat_popup_su/assets/visual_cache/R16_QA/thumbs/R16_QA_03_top_plan_cad_scale_clean_helpers_hidden_thumb.jpg",
+      "local_original_path": "/Users/bonnie/Documents/设计项目/logicat_popup_su/assets/visual_cache/R16_QA/R16_QA_03_top_plan_cad_scale_clean_helpers_hidden.png",
+      "prev_id": "logicat_r16_qa_02_top_design_range_bad_cad_hidden",
+      "next_id": null,
+      "title": "R16 clean top plan CAD scale proof",
+      "quality_notes": "Good readable QA asset. Use as current visual checkpoint before R16 scale cleanup."
+    }
+  ]
+}

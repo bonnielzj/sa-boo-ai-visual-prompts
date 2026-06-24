@@ -1,0 +1,4 @@
+interface:
+  display_name: "SketchUp Flatten Faces Cleanup"
+  short_description: "Flatten faces and prep clean panels."
+  default_prompt: "Use SketchUp Flatten Faces Cleanup to plan or guide flattening selected faces, unwrapping surfaces, or smashing geometry to an axis plane in SketchUp 2025."

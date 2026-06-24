@@ -1,0 +1,6 @@
+interface:
+  display_name: "SketchUp AI Render Workflow"
+  short_description: "AI Render prompts and SketchUp scene workflow"
+  default_prompt: "Use $sketchup-ai-render-workflow to plan AI Render prompts and output passes for my SketchUp interior scene."
+policy:
+  allow_implicit_invocation: true

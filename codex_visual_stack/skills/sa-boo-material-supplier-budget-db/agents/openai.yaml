@@ -1,0 +1,6 @@
+interface:
+  display_name: "SA&BOO Material Supplier Budget DB"
+  short_description: "材料供应商预算数据库与FF&E采购流程指南"
+  default_prompt: "Use $sa-boo-material-supplier-budget-db to build or audit a SA&BOO material, supplier, FF&E, procurement, and budget database."
+policy:
+  allow_implicit_invocation: true

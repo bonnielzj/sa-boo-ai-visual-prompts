@@ -1,0 +1,4 @@
+interface:
+  display_name: "SketchUp SketchyFFD Deformation"
+  short_description: "Plan control-cage deformation in SketchUp"
+  default_prompt: "Use $sketchup-sketchyffd-deformation to plan SketchyFFD control-cage deformation for curved walls, soft furniture, panels, or sculptural interior forms."

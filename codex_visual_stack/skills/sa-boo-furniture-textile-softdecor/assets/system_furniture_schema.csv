@@ -1,0 +1,20 @@
+field,description,example
+system_item_id,Stable ID for system furniture item,SYS-KIT-0001
+brand,Brand/source,Poliform
+system_family,Kitchen/wardrobe/wall system/product family,Free sideboard / Gliss Master
+room_use,Kitchen/wardrobe/living/bath/etc.,kitchen
+module_type,base/wall/tall/island/closet/sliding-door/bookcase/panel,base unit
+module_dimensions_mm,Width x depth x height or range,600x600x900
+custom_size_rules,What can be customized,TBD from official source
+materials_finishes,Front/carcass/worktop/glass/metal/wood/lacquer codes,TBD
+hardware_detail,Hinges/runners/rails/handles/lift systems,TBD
+service_coordination,Power/plumbing/ventilation/lighting/appliance notes,TBD
+available_formats,CAD/SKP/DWG/Revit/BIM/3DS/FBX/MAX/PDF/images,DWG; FBX; PDF
+access_requirement,Open/login/dealer/A&D/reserved area,A&D login
+source_url,Official product/download URL,https://...
+rights_status,supplier-reference/reference-only/open-license,supplier-reference
+cad_notes,Plan/elevation/section/tag/layer notes,I-FURN-FIXD-N
+sketchup_lod,Proxy/detail strategy,LOD1 proxy + LOD2 hero module
+procurement_installation_risk,Lead time/site measurement/tolerance risk,site measure before order
+aesthetic_verdict,SA&BOO design judgement,calm modular rhythm; good shadow gaps
+updated_at,Last update date,2026-06-24

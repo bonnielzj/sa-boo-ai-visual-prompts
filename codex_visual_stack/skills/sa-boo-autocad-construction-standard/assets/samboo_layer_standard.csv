@@ -1,0 +1,33 @@
+﻿Layer,Color,Lineweight_mm,Linetype,Plot,Use
+I-WALL-FULL-N,7,0.35,Continuous,Yes,cut walls / main partitions
+I-WALL-LITE-N,8,0.18,Continuous,Yes,low partitions / glass / lightweight outlines
+I-WALL-DEMO-D,1,0.18,DASHED,Yes,demolition walls
+I-DOOR-PANL-N,3,0.25,Continuous,Yes,door panels
+I-DOOR-SWNG-N,3,0.13,Continuous,Yes,door swing arcs
+I-WIND-GLAZ-N,4,0.18,Continuous,Yes,windows/glazing
+I-FURN-FIXD-N,2,0.25,Continuous,Yes,fixed furniture/millwork
+I-FURN-LOOS-N,9,0.13,Continuous,Yes,loose FF&E reference
+I-FLOR-FINI-N,6,0.13,Continuous,Yes,floor finish boundaries/patterns
+I-CEIL-EDGE-N,5,0.18,Continuous,Yes,ceiling edges and soffits
+I-CEIL-GRID-N,8,0.09,Continuous,Yes,ceiling grid/light guides
+E-LITE-FIXT-N,30,0.18,Continuous,Yes,lighting fixtures
+E-SWCH-SYMB-N,30,0.18,Continuous,Yes,switches
+E-POWR-OUTL-N,1,0.18,Continuous,Yes,sockets/power/data outlets
+P-PLMB-FIXT-N,140,0.18,Continuous,Yes,sanitary fixtures/drains
+M-HVAC-DIFF-N,151,0.18,Continuous,Yes,"diffusers, vents, AC"
+I-HATCH-CUT,8,0.09,Continuous,Yes,cut hatches / material hatches
+I-HATCH-MATL,9,0.09,Continuous,Yes,material pattern/hatch
+I-ANNO-DIMS,2,0.18,Continuous,Yes,dimensions
+I-ANNO-TEXT,7,0.18,Continuous,Yes,general notes/text
+I-ANNO-LEAD,2,0.18,Continuous,Yes,leaders
+I-ANNO-TAGS,4,0.18,Continuous,Yes,room/material/door tags
+I-ANNO-SYMB,4,0.18,Continuous,Yes,section/elevation/detail symbols
+I-AXIS-GRID,8,0.13,CENTER,Yes,axis/grid lines
+I-REV-CLOUD-RXX,1,0.25,Continuous,Yes,"revision clouds, rename per revision"
+I-REV-DELT-RXX,1,0.25,Continuous,Yes,delta triangles/revision marks
+I-TTLB-LINE,7,0.25,Continuous,Yes,title block/borders
+I-TTLB-TEXT,7,0.18,Continuous,Yes,title block text
+X-BASE-ARCH,8,0.09,Continuous,Yes,base building xref geometry
+X-UNDERLAY,8,0.05,Continuous,Yes,consultant underlays
+NPLT-GUIDE,6,0.05,Continuous,No,guides/construction lines
+NPLT-VPORT,6,0.00,Continuous,No,layout viewports

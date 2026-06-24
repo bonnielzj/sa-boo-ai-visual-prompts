@@ -1,0 +1,53 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "color": {
+    "primitive": {
+      "ivory-50": { "$type": "color", "$value": "#F7F3EA" },
+      "ivory-100": { "$type": "color", "$value": "#EFE7D8" },
+      "ink-900": { "$type": "color", "$value": "#111111" },
+      "ink-700": { "$type": "color", "$value": "#2A2926" },
+      "warmgray-100": { "$type": "color", "$value": "#E6DFD4" },
+      "warmgray-300": { "$type": "color", "$value": "#B9AEA0" },
+      "stone-500": { "$type": "color", "$value": "#8A8177" },
+      "champagne-400": { "$type": "color", "$value": "#C8AA73" },
+      "bronze-600": { "$type": "color", "$value": "#8B6438" },
+      "silver-200": { "$type": "color", "$value": "#D8D8D6" },
+      "silver-500": { "$type": "color", "$value": "#9B9B9A" },
+      "accent-red": { "$type": "color", "$value": "#8A1F2D" }
+    },
+    "bg": {
+      "deep": { "$type": "color", "$value": "{color.primitive.ink-900}" },
+      "ivory": { "$type": "color", "$value": "{color.primitive.ivory-50}" },
+      "paper": { "$type": "color", "$value": "{color.primitive.ivory-100}" }
+    },
+    "text": {
+      "primary": { "$type": "color", "$value": "{color.primitive.ink-900}" },
+      "inverse": { "$type": "color", "$value": "{color.primitive.ivory-50}" },
+      "muted": { "$type": "color", "$value": "{color.primitive.stone-500}" }
+    },
+    "accent": {
+      "gold": { "$type": "color", "$value": "{color.primitive.champagne-400}" },
+      "bronze": { "$type": "color", "$value": "{color.primitive.bronze-600}" },
+      "silver": { "$type": "color", "$value": "{color.primitive.silver-500}" },
+      "red": { "$type": "color", "$value": "{color.primitive.accent-red}" }
+    }
+  },
+  "spacing": {
+    "2xs": { "$type": "dimension", "$value": "4px" },
+    "xs": { "$type": "dimension", "$value": "8px" },
+    "sm": { "$type": "dimension", "$value": "12px" },
+    "md": { "$type": "dimension", "$value": "16px" },
+    "lg": { "$type": "dimension", "$value": "24px" },
+    "xl": { "$type": "dimension", "$value": "32px" },
+    "2xl": { "$type": "dimension", "$value": "48px" },
+    "3xl": { "$type": "dimension", "$value": "64px" },
+    "4xl": { "$type": "dimension", "$value": "96px" }
+  },
+  "radius": {
+    "none": { "$type": "dimension", "$value": "0px" },
+    "sm": { "$type": "dimension", "$value": "4px" },
+    "md": { "$type": "dimension", "$value": "8px" },
+    "lg": { "$type": "dimension", "$value": "16px" },
+    "full": { "$type": "dimension", "$value": "999px" }
+  }
+}

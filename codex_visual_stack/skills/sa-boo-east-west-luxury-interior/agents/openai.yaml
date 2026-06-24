@@ -1,0 +1,4 @@
+interface:
+  display_name: "SA&BOO Luxury Interior"
+  short_description: "East-West luxury interior briefs and spatial narratives."
+  default_prompt: "Use SA&BOO East-West Luxury Interior to write a project design brief for [space]."

@@ -49,3 +49,18 @@ python3 scripts/search_visual_assets.py "戏剧感 小红书封面 聚光灯"
 ```
 
 版权边界：第三方视觉缓存仅用于内部研究和索引，不作为自有商用素材直接再分发。
+
+
+## Codex Visual Stack Backup / 视觉工作流备份包
+
+本仓库新增 `codex_visual_stack/`，用于同步 Bonnie Codex 中与视觉、室内、CAD、SketchUp、渲染、Figma、Prompt、视觉资产链相关的 skills 与工作流。
+
+包含：
+
+- `codex_visual_stack/skills/`：72 个视觉相关 Codex skill 备份，包含真实 `SKILL.md`、references、scripts（已排除密钥、缓存、大型专有二进制）。
+- `codex_visual_stack/mcp_templates/`：MCP / key / URL 占位模板，所有敏感值均为 `${PLACEHOLDER}`。
+- `codex_visual_stack/visual_chains/`：视觉资产链表、manifest、asset graph、vector index 示例。
+- `codex_visual_stack/project_examples/logicat_r16/`：Logicat R16 项目的非空 QA 视觉链样例，含 PNG、JSON 链表和 QA 报告。
+- `codex_visual_stack/manifests/visual_skills_manifest.json`：可检索 skill 清单。
+
+安全边界：不要提交真实 API key、token、私密 relay URL、`auth.json`、`secrets.json`、客户私密 CAD/SKP/DWG。模板中的 key/url 需要在本地私有配置中填写。

@@ -1,0 +1,6 @@
+interface:
+  display_name: "SketchUp Curic Align View"
+  short_description: "Align SketchUp cameras to faces and elevations"
+  default_prompt: "Use $sketchup-curic-align-view to plan aligned camera scenes and elevation views in my SketchUp model."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SketchUp Texture Positioning"
+  short_description: "Align, rotate, and randomize SketchUp textures"
+  default_prompt: "Use $sketchup-texture-positioning to plan texture alignment, rotation, depatternizing, and render-prep UV checks for my SketchUp interior model."

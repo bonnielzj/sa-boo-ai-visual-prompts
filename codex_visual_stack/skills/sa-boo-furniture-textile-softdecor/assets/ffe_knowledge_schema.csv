@@ -1,0 +1,27 @@
+field,description,example
+item_id,Stable ID for furniture/textile/soft decor knowledge item,F-SOFA-0001
+category,Object category,seating
+subcategory,Object subtype,sofa
+room,Intended room/lifestyle context,living room
+function,Primary use / ritual,conversation + lounging
+visual_asset_ids,Linked visual-asset-index IDs,VA-...
+source_url,Official/source page URL,https://...
+rights_status,public-domain/open-license/reference-only/supplier-reference/user-provided,reference-only
+brand_or_designer,Brand designer maker or source label,custom / Vitra / unknown
+product_or_archetype,Product name or archetype,low modular sofa
+approx_dimensions_mm,Width x depth x height if known,3200x1000x700
+clearance_notes,Human/circulation/installation notes,leave 800-900mm main path
+materials,Main visible materials,linen upholstery + oak legs
+textile_performance,Abrasion/flame/cleaning notes if relevant,Martindale TBD / dry clean
+construction_notes,Frame/cushion/joinery/hardware notes,wood frame + loose cushions
+style_lineage,Historical/style references,Italian modern / Japanese low living
+aesthetic_verdict,SA&BOO judgement and why,quiet low silhouette; good for calm stone room
+cad_layer_block,CAD layer/block/tag rule,I-FURN-LOOS-N / F-SOFA-001
+sketchup_component,SketchUp component/tag/LOD rule,FFE_SEATING LOD2 proxy+render variant
+render_notes,Texture/camera/light notes,show fabric grain in close detail
+supplier_status,source/quoted/approved/ordered/installed,source
+budget_band,low/mid/high/custom,TBD
+lead_time,Expected lead time,TBD
+maintenance_risk,Cleaning/wear/fading/pets/children risk,light linen stains easily
+related_items,Other item IDs,F-RUG-0001;F-TABLE-0001
+updated_at,Last update date,2026-06-24

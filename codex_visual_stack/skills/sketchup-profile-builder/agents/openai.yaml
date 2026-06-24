@@ -1,0 +1,4 @@
+interface:
+  display_name: "SketchUp Profile Builder"
+  short_description: "Profile Builder for SketchUp interiors"
+  default_prompt: "Use SketchUp Profile Builder for this modeling task."

@@ -1,0 +1,6 @@
+interface:
+  display_name: "SA&BOO Project Intake"
+  short_description: "客户需求澄清、项目建档与初步诊断"
+  default_prompt: "Use $sa-boo-project-intake to structure a client brief and identify the next design questions."
+policy:
+  allow_implicit_invocation: true

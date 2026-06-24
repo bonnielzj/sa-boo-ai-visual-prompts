@@ -1,0 +1,6 @@
+interface:
+  display_name: "SketchUp Skatter Scattering"
+  short_description: "Skatter vegetation, decor, and surface scattering"
+  default_prompt: "Use $sketchup-skatter-scattering to plan Skatter distribution settings for my SketchUp interior or landscape scene."
+policy:
+  allow_implicit_invocation: true

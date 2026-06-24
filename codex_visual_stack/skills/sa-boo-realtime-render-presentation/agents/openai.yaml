@@ -1,0 +1,6 @@
+interface:
+  display_name: "SA&BOO Realtime Render Presentation"
+  short_description: "D5/Enscape/Twinmotion快速汇报标准"
+  default_prompt: "Use $sa-boo-realtime-render-presentation to create a D5, Enscape, or Twinmotion quick render presentation workflow with lighting, materials, camera, before-after, and QA standards."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SA&BOO Lineart Blueprint"
+  short_description: "Technical line-art blueprint prompts for product concepts."
+  default_prompt: "Use SA&BOO Lineart Blueprint to generate a product design sketch prompt for [object]."

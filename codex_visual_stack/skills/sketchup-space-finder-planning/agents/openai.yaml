@@ -1,0 +1,6 @@
+interface:
+  display_name: "SketchUp Space Finder Planning"
+  short_description: "Find rooms, spaces, and area plans in SketchUp"
+  default_prompt: "Use $sketchup-space-finder-planning to plan room/space recognition and area checking in my SketchUp model."
+policy:
+  allow_implicit_invocation: true

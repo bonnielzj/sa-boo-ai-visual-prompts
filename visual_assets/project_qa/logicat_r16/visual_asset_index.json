@@ -1,0 +1,136 @@
+{
+  "created_at": "2026-06-24T22:59:14",
+  "project": "logicat_popup_su",
+  "count": 3,
+  "assets": [
+    {
+      "asset_id": "logicat_r16_qa_01_all_extents_outlier_visible",
+      "source_file_path": "/Users/bonnie/Documents/设计项目/logicat_popup_su/04_SU_Exports_View_R16_QA/R16_QA_01_all_extents_outlier_visible.png",
+      "title": "R16 QA all extents with outlier visible",
+      "description": "SketchUp full extents view showing model range polluted by oversized locked CAD reference.",
+      "tags": [
+        "logicat_popup",
+        "R16_QA",
+        "SketchUp",
+        "model_extents",
+        "outlier",
+        "CAD_REF_PLAN",
+        "scale_issue"
+      ],
+      "quality_notes": "Readable as failure evidence; not presentation asset. Shows abnormal extents caused by oversized CAD reference.",
+      "rights_status": "project_internal_generated_asset",
+      "local_original_path": "/Users/bonnie/Documents/设计项目/logicat_popup_su/assets/visual_cache/R16_QA/R16_QA_01_all_extents_outlier_visible.png",
+      "thumbnail_path": "/Users/bonnie/Documents/设计项目/logicat_popup_su/assets/visual_cache/R16_QA/thumbs/R16_QA_01_all_extents_outlier_visible_thumb.jpg",
+      "source_url": null,
+      "original_image_url": null,
+      "capture_date": "2026-06-24T22:59:14",
+      "hash_sha256": "fcc6174ee748629f9450fb672e1f7c869d7f5d465ceae7aeeb818bba203c14ad",
+      "pixel_size": [
+        1800,
+        1300
+      ],
+      "category": "project_qa_visual_checkpoint",
+      "prev_id": null,
+      "next_id": "logicat_r16_qa_02_top_design_range_bad_cad_hidden",
+      "related_ids": [
+        "logicat_r16_qa_02_top_design_range_bad_cad_hidden",
+        "logicat_r16_qa_03_top_plan_cad_scale_clean"
+      ],
+      "evidence_reports": [
+        "/Users/bonnie/Documents/设计项目/logicat_popup_su/08_Revision_Log/R16_model_scale_top_QA.md",
+        "/Users/bonnie/Documents/设计项目/logicat_popup_su/08_Revision_Log/R16_model_outlier_overlap_QA.md",
+        "/Users/bonnie/Documents/设计项目/logicat_popup_su/08_Revision_Log/R16_cad_ref_line_QA.md"
+      ],
+      "source_model_path": "/Users/bonnie/Documents/设计项目/logicat_popup_su/03_SketchUp_Model/LOGICAT_popup_ASTRONAUT_CAT_UFO_R15_white_bg_ceiling_enscape.skp",
+      "source_cad_path": "/Users/bonnie/Documents/设计项目/popup_ufo_layout_8x9m_v2_ascii.dxf",
+      "design_question": "Does the current SketchUp model align to the 8000 x 9000 mm CAD layout, and are there wrong overlapping/outlier shapes or lines?",
+      "decision_supported": "Proceed only after removing or isolating the oversized locked CAD reference group; clean plan aligns to CAD scale."
+    },
+    {
+      "asset_id": "logicat_r16_qa_02_top_design_range_bad_cad_hidden",
+      "source_file_path": "/Users/bonnie/Documents/设计项目/logicat_popup_su/04_SU_Exports_View_R16_QA/R16_QA_02_top_8x9_design_range_bad_cad_hidden.png",
+      "title": "R16 QA top 8x9 design range with bad CAD hidden",
+      "description": "Top orthographic check after hiding the wrong-scale CAD reference group.",
+      "tags": [
+        "logicat_popup",
+        "R16_QA",
+        "SketchUp",
+        "top_view",
+        "8x9m",
+        "CAD_alignment"
+      ],
+      "quality_notes": "Low file size but useful intermediate proof; not final presentation.",
+      "rights_status": "project_internal_generated_asset",
+      "local_original_path": "/Users/bonnie/Documents/设计项目/logicat_popup_su/assets/visual_cache/R16_QA/R16_QA_02_top_8x9_design_range_bad_cad_hidden.png",
+      "thumbnail_path": "/Users/bonnie/Documents/设计项目/logicat_popup_su/assets/visual_cache/R16_QA/thumbs/R16_QA_02_top_8x9_design_range_bad_cad_hidden_thumb.jpg",
+      "source_url": null,
+      "original_image_url": null,
+      "capture_date": "2026-06-24T22:59:14",
+      "hash_sha256": "3d8bf7ce9432ffffb395699638efc2556f90935176294e4a87900d0eeb161f29",
+      "pixel_size": [
+        1800,
+        1300
+      ],
+      "category": "project_qa_visual_checkpoint",
+      "prev_id": "logicat_r16_qa_01_all_extents_outlier_visible",
+      "next_id": "logicat_r16_qa_03_top_plan_cad_scale_clean",
+      "related_ids": [
+        "logicat_r16_qa_01_all_extents_outlier_visible",
+        "logicat_r16_qa_03_top_plan_cad_scale_clean"
+      ],
+      "evidence_reports": [
+        "/Users/bonnie/Documents/设计项目/logicat_popup_su/08_Revision_Log/R16_model_scale_top_QA.md",
+        "/Users/bonnie/Documents/设计项目/logicat_popup_su/08_Revision_Log/R16_model_outlier_overlap_QA.md",
+        "/Users/bonnie/Documents/设计项目/logicat_popup_su/08_Revision_Log/R16_cad_ref_line_QA.md"
+      ],
+      "source_model_path": "/Users/bonnie/Documents/设计项目/logicat_popup_su/03_SketchUp_Model/LOGICAT_popup_ASTRONAUT_CAT_UFO_R15_white_bg_ceiling_enscape.skp",
+      "source_cad_path": "/Users/bonnie/Documents/设计项目/popup_ufo_layout_8x9m_v2_ascii.dxf",
+      "design_question": "Does the current SketchUp model align to the 8000 x 9000 mm CAD layout, and are there wrong overlapping/outlier shapes or lines?",
+      "decision_supported": "Proceed only after removing or isolating the oversized locked CAD reference group; clean plan aligns to CAD scale."
+    },
+    {
+      "asset_id": "logicat_r16_qa_03_top_plan_cad_scale_clean",
+      "source_file_path": "/Users/bonnie/Documents/设计项目/logicat_popup_su/04_SU_Exports_View_R16_QA/R16_QA_03_top_plan_cad_scale_clean_helpers_hidden.png",
+      "title": "R16 clean top plan CAD scale proof",
+      "description": "Clean top orthographic plan proof showing the design body aligned with the 8000 x 9000 mm CAD layout after hiding bad CAD reference and helper layers.",
+      "tags": [
+        "logicat_popup",
+        "R16_QA",
+        "SketchUp",
+        "top_plan",
+        "CAD_scale",
+        "8x9m",
+        "visual_checkpoint",
+        "clean_plan"
+      ],
+      "quality_notes": "Good readable QA asset. Use as current visual checkpoint before R16 scale cleanup.",
+      "rights_status": "project_internal_generated_asset",
+      "local_original_path": "/Users/bonnie/Documents/设计项目/logicat_popup_su/assets/visual_cache/R16_QA/R16_QA_03_top_plan_cad_scale_clean_helpers_hidden.png",
+      "thumbnail_path": "/Users/bonnie/Documents/设计项目/logicat_popup_su/assets/visual_cache/R16_QA/thumbs/R16_QA_03_top_plan_cad_scale_clean_helpers_hidden_thumb.jpg",
+      "source_url": null,
+      "original_image_url": null,
+      "capture_date": "2026-06-24T22:59:14",
+      "hash_sha256": "89117e654490dfb97d0536298c6cf81dc2bf68d010052ecf2066d3780805275e",
+      "pixel_size": [
+        1800,
+        1300
+      ],
+      "category": "project_qa_visual_checkpoint",
+      "prev_id": "logicat_r16_qa_02_top_design_range_bad_cad_hidden",
+      "next_id": null,
+      "related_ids": [
+        "logicat_r16_qa_01_all_extents_outlier_visible",
+        "logicat_r16_qa_02_top_design_range_bad_cad_hidden"
+      ],
+      "evidence_reports": [
+        "/Users/bonnie/Documents/设计项目/logicat_popup_su/08_Revision_Log/R16_model_scale_top_QA.md",
+        "/Users/bonnie/Documents/设计项目/logicat_popup_su/08_Revision_Log/R16_model_outlier_overlap_QA.md",
+        "/Users/bonnie/Documents/设计项目/logicat_popup_su/08_Revision_Log/R16_cad_ref_line_QA.md"
+      ],
+      "source_model_path": "/Users/bonnie/Documents/设计项目/logicat_popup_su/03_SketchUp_Model/LOGICAT_popup_ASTRONAUT_CAT_UFO_R15_white_bg_ceiling_enscape.skp",
+      "source_cad_path": "/Users/bonnie/Documents/设计项目/popup_ufo_layout_8x9m_v2_ascii.dxf",
+      "design_question": "Does the current SketchUp model align to the 8000 x 9000 mm CAD layout, and are there wrong overlapping/outlier shapes or lines?",
+      "decision_supported": "Proceed only after removing or isolating the oversized locked CAD reference group; clean plan aligns to CAD scale."
+    }
+  ]
+}

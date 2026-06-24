@@ -1,0 +1,6 @@
+interface:
+  display_name: "SA&BOO Furniture Textile Soft Decor"
+  short_description: "Furniture textile soft decor knowledge system"
+  default_prompt: "Use $sa-boo-furniture-textile-softdecor to build a visual-first furniture, textile, and soft-decoration knowledge plan for an interior project."
+policy:
+  allow_implicit_invocation: true

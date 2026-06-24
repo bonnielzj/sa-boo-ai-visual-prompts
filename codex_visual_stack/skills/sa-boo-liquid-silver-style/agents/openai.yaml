@@ -1,0 +1,4 @@
+interface:
+  display_name: "SA&BOO Liquid Silver"
+  short_description: "Liquid silver chrome, acid Y2K and luxury future prompts."
+  default_prompt: "Use SA&BOO Liquid Silver Style to create an AI image prompt for [subject]."

@@ -1,0 +1,6 @@
+interface:
+  display_name: "SA&BOO Figma Brand Kit"
+  short_description: "Figma品牌资产与组件库落地流程指南"
+  default_prompt: "Use $sa-boo-figma-brand-kit to build a practical SA&BOO Figma Brand Kit with tokens, templates, components, and MCP workflow."
+policy:
+  allow_implicit_invocation: true

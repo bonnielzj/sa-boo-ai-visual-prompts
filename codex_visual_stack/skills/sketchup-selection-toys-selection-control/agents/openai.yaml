@@ -1,0 +1,4 @@
+interface:
+  display_name: "SketchUp Selection Toys"
+  short_description: "Advanced SketchUp selection control."
+  default_prompt: "Use SketchUp Selection Toys to plan or guide selecting, filtering, and manipulating SketchUp entities during CAD cleanup, imported model repair, material cleanup, and interior modeling workflows."

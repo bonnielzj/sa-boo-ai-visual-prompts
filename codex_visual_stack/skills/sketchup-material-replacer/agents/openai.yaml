@@ -1,0 +1,4 @@
+interface:
+  display_name: "SketchUp Material Replacer"
+  short_description: "Plan batch material replacement in SketchUp"
+  default_prompt: "Use $sketchup-material-replacer to plan material cleanup, batch replacement, and design-scheme material swaps in my SketchUp interior model."

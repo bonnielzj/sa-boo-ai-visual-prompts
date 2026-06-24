@@ -1,0 +1,4 @@
+interface:
+  display_name: "SA&BOO Prompt Translator"
+  short_description: "Convert Chinese design intent into structured AI prompts."
+  default_prompt: "Use SA&BOO Prompt Translator to turn this idea into Chinese and English AI prompts: [idea]."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SketchUp Artisan"
+  short_description: "Artisan organic modeling in SketchUp"
+  default_prompt: "Use SketchUp Artisan for this organic modeling task."

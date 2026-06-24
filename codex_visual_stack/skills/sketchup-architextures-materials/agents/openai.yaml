@@ -1,0 +1,4 @@
+interface:
+  display_name: "SketchUp Architextures"
+  short_description: "Create seamless hard-finish textures."
+  default_prompt: "Use $sketchup-architextures-materials to plan a SketchUp material workflow for seamless tiles, wood, stone, brick, terrazzo, wallpaper, carpet, or hard-finish textures."

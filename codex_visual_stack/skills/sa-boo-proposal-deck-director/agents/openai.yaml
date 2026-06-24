@@ -1,0 +1,6 @@
+interface:
+  display_name: "SA&BOO Proposal Deck Director"
+  short_description: "提案册结构、逐页大纲与客户叙事"
+  default_prompt: "Use $sa-boo-proposal-deck-director to build a refined SA&BOO proposal deck outline."
+policy:
+  allow_implicit_invocation: true

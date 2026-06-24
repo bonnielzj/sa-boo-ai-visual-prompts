@@ -1,0 +1,4 @@
+interface:
+  display_name: "SketchUp Soap Skin Bubble"
+  short_description: "Plan membrane and bubble surface workflows in SketchUp 2025."
+  default_prompt: "Use Soap Skin Bubble to plan a SketchUp workflow for a membrane, canopy, soft curved surface, or bubble form."

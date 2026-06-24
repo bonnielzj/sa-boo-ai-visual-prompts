@@ -1,0 +1,6 @@
+interface:
+  display_name: "SA&BOO AutoCAD Construction Standard"
+  short_description: "SA&BOO室内施工图图层标注版本变更规范"
+  default_prompt: "Use $sa-boo-autocad-construction-standard to audit or create SA&BOO interior construction drawings with layer, annotation, revision, and version standards."
+policy:
+  allow_implicit_invocation: true

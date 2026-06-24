@@ -1,0 +1,6 @@
+interface:
+  display_name: "SA&BOO Design Research Radar"
+  short_description: "室内、品牌与AI设计趋势研究雷达"
+  default_prompt: "Use $sa-boo-design-research-radar to research current interior and brand design trends for a SA&BOO project."
+policy:
+  allow_implicit_invocation: true

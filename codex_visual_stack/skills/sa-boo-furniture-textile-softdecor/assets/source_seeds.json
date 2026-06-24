@@ -1,0 +1,515 @@
+[
+  {
+    "source_name": "Adobe Golden Ratio Guide",
+    "source_page_url": "https://www.adobe.com/creativecloud/design/discover/golden-ratio.html",
+    "category": "classical-proportion/golden-ratio",
+    "tags": [
+      "golden-ratio",
+      "phi",
+      "Fibonacci",
+      "composition",
+      "design-guide"
+    ],
+    "rights_status": "reference-source",
+    "usage_allowed": "citation-and-design-QA"
+  },
+  {
+    "source_name": "Smarthistory Greek Architectural Orders",
+    "source_page_url": "https://smarthistory.org/greek-architectural-orders/",
+    "category": "classical-proportion/orders",
+    "tags": [
+      "Doric",
+      "Ionic",
+      "Corinthian",
+      "classical-orders",
+      "proportion"
+    ],
+    "rights_status": "reference-source",
+    "usage_allowed": "citation-and-design-QA"
+  },
+  {
+    "source_name": "Project Gutenberg Vitruvius Ten Books",
+    "source_page_url": "https://www.gutenberg.org/files/20239/20239-h/20239-h.htm",
+    "category": "classical-proportion/vitruvius",
+    "tags": [
+      "Vitruvius",
+      "classical-architecture",
+      "proportion",
+      "orders"
+    ],
+    "rights_status": "reference-source",
+    "usage_allowed": "citation-and-design-QA"
+  },
+  {
+    "source_name": "ETH Library Le Corbusier Modulor",
+    "source_page_url": "https://library.ethz.ch/en/collections-and-archives/platforms/virtual-exhibitions/fibonacci-un-ponte-sul-mediterraneo/reception-of-fibonacci-numbers-and-the-golden-ratio/le-corbusier-the-modulor.html",
+    "category": "classical-proportion/modulor",
+    "tags": [
+      "Modulor",
+      "Le Corbusier",
+      "human-scale",
+      "golden-ratio",
+      "proportion"
+    ],
+    "rights_status": "reference-source",
+    "usage_allowed": "citation-and-design-QA"
+  },
+  {
+    "source_name": "US Access Board ADA Chapter 3 Guide",
+    "source_page_url": "https://www.access-board.gov/ada/guides/chapter-3-clear-floor-or-ground-space-and-turning-space/",
+    "category": "standards/accessibility",
+    "tags": [
+      "ADA",
+      "accessibility",
+      "clear-floor-space",
+      "turning-space",
+      "knee-toe-clearance"
+    ],
+    "rights_status": "reference-source",
+    "usage_allowed": "citation-and-design-QA"
+  },
+  {
+    "source_name": "OSHA Computer Workstations eTool",
+    "source_page_url": "https://www.osha.gov/etools/computer-workstations",
+    "category": "standards/ergonomics-workstation",
+    "tags": [
+      "OSHA",
+      "ergonomics",
+      "workstation",
+      "posture",
+      "checklist"
+    ],
+    "rights_status": "reference-source",
+    "usage_allowed": "citation-and-design-QA"
+  },
+  {
+    "source_name": "HFES Anthropometric Data Guidelines",
+    "source_page_url": "https://www.hfes.org/Portals/0/Publications/Guidelines_AnthropometricData.pdf?ver=2020-12-23-083000-033",
+    "category": "standards/ergonomics",
+    "tags": [
+      "HFES",
+      "anthropometry",
+      "ergonomics",
+      "human-factors",
+      "design-data"
+    ],
+    "rights_status": "reference-source",
+    "usage_allowed": "citation-and-design-QA"
+  },
+  {
+    "source_name": "Poggenpohl Kitchen Architecture",
+    "source_page_url": "https://www.poggenpohl.com/kitchen-architecture/",
+    "category": "official-brand/kitchen/poggenpohl",
+    "tags": [
+      "Poggenpohl",
+      "kitchen-architecture",
+      "custom",
+      "materials"
+    ],
+    "rights_status": "supplier-reference",
+    "usage_allowed": "private-study-metadata; download per brand/dealer terms"
+  },
+  {
+    "source_name": "Cesar Kitchens",
+    "source_page_url": "https://www.cesar.it/en/",
+    "category": "official-brand/kitchen/cesar",
+    "tags": [
+      "Cesar",
+      "kitchen",
+      "download",
+      "material-system",
+      "planning"
+    ],
+    "rights_status": "supplier-reference",
+    "usage_allowed": "private-study-metadata; download per brand/dealer terms"
+  },
+  {
+    "source_name": "Modulnova Systems",
+    "source_page_url": "https://www.modulnova.it/en/",
+    "category": "official-brand/system/modulnova",
+    "tags": [
+      "Modulnova",
+      "kitchen",
+      "living",
+      "bathroom",
+      "systems",
+      "downloads",
+      "reserved-area"
+    ],
+    "rights_status": "supplier-reference",
+    "usage_allowed": "private-study-metadata; download per brand/dealer terms"
+  },
+  {
+    "source_name": "Lema Wardrobes",
+    "source_page_url": "https://www.lemamobili.com/en/rooms/bedroom/wardrobes/",
+    "category": "official-brand/system/lema",
+    "tags": [
+      "Lema",
+      "wardrobe",
+      "custom",
+      "walk-in-closet",
+      "bespoke"
+    ],
+    "rights_status": "supplier-reference",
+    "usage_allowed": "private-study-metadata; download per brand/dealer terms"
+  },
+  {
+    "source_name": "Porro Storage Closets Systems",
+    "source_page_url": "https://www.porro.com/en/products/systems/storage%2Bclosets",
+    "category": "official-brand/system/porro",
+    "tags": [
+      "Porro",
+      "Storage",
+      "wardrobe",
+      "walk-in-closet",
+      "boiserie",
+      "systems"
+    ],
+    "rights_status": "supplier-reference",
+    "usage_allowed": "private-study-metadata; download per brand/dealer terms"
+  },
+  {
+    "source_name": "Rimadesio Downloads",
+    "source_page_url": "https://www.rimadesio.it/en/download/",
+    "category": "official-brand/system/rimadesio",
+    "tags": [
+      "Rimadesio",
+      "sliding-doors",
+      "wall-panels",
+      "walk-in-closets",
+      "catalogues",
+      "materials"
+    ],
+    "rights_status": "supplier-reference",
+    "usage_allowed": "private-study-metadata; download per brand/dealer terms"
+  },
+  {
+    "source_name": "Valcucine 3D Models and Inspirations",
+    "source_page_url": "https://www.valcucine.com/en/professionals/3d-models-and-design-inspirations/",
+    "category": "official-brand/kitchen/valcucine",
+    "tags": [
+      "Valcucine",
+      "3D-models",
+      "kitchen",
+      "special-elements",
+      "professional"
+    ],
+    "rights_status": "supplier-reference",
+    "usage_allowed": "private-study-metadata; download per brand/dealer terms"
+  },
+  {
+    "source_name": "Boffi Downloads",
+    "source_page_url": "https://www.boffi.com/en/download/",
+    "category": "official-brand/system/boffi",
+    "tags": [
+      "Boffi",
+      "kitchen",
+      "bathroom",
+      "wardrobe",
+      "catalogues",
+      "systems"
+    ],
+    "rights_status": "supplier-reference",
+    "usage_allowed": "private-study-metadata; download per brand/dealer terms"
+  },
+  {
+    "source_name": "Bulthaup Products",
+    "source_page_url": "https://bulthaup.com/en/products/",
+    "category": "official-brand/kitchen/bulthaup",
+    "tags": [
+      "bulthaup",
+      "kitchen",
+      "premium",
+      "custom",
+      "materials",
+      "dealer-planning"
+    ],
+    "rights_status": "supplier-reference",
+    "usage_allowed": "private-study-metadata; download per brand/dealer terms"
+  },
+  {
+    "source_name": "SieMatic Materials and Colours",
+    "source_page_url": "https://www.siematic.com/kitchens/materials-colors/",
+    "category": "official-brand/kitchen/siematic",
+    "tags": [
+      "SieMatic",
+      "kitchen",
+      "materials",
+      "colours",
+      "customisation",
+      "interior"
+    ],
+    "rights_status": "supplier-reference",
+    "usage_allowed": "private-study-metadata; download per brand/dealer terms"
+  },
+  {
+    "source_name": "Alias Product Downloads Example",
+    "source_page_url": "https://alias.design/en/products/maddy-armchair",
+    "category": "official-brand/system/alias",
+    "tags": [
+      "Alias",
+      "2D-DWG",
+      "3D-DWG",
+      "3D-3DS",
+      "3D-FBX",
+      "product-sheet"
+    ],
+    "rights_status": "supplier-reference",
+    "usage_allowed": "private-study-metadata; download per brand/dealer terms"
+  },
+  {
+    "source_name": "Molteni&C A&D Login / DWG Drawings",
+    "source_page_url": "https://www.molteni.it/us/user/login",
+    "category": "official-brand/system/molteni",
+    "tags": [
+      "Molteni&C",
+      "Dada",
+      "kitchen",
+      "wardrobe",
+      "DWG",
+      "technical-sheets",
+      "A&D-area"
+    ],
+    "rights_status": "supplier-reference",
+    "usage_allowed": "private-study-metadata; download per brand/dealer terms"
+  },
+  {
+    "source_name": "USM Architect Support",
+    "source_page_url": "https://www.usm.com/en/support-for-architects-and-designers",
+    "category": "official-brand/system/usm",
+    "tags": [
+      "USM",
+      "system-furniture",
+      "Haller",
+      "AutoCAD",
+      "SketchUp",
+      "Revit",
+      "BIMobject",
+      "pCon",
+      "2D-DWG"
+    ],
+    "rights_status": "supplier-reference",
+    "usage_allowed": "private-study-metadata; download per brand/dealer terms"
+  },
+  {
+    "source_name": "Poliform Product Downloads",
+    "source_page_url": "https://www.poliform.it/us/products/free/",
+    "category": "official-brand/furniture/poliform",
+    "tags": [
+      "Poliform",
+      "official-brand",
+      "2D-DWG",
+      "3D-3DM",
+      "FBX",
+      "MAX",
+      "finishes",
+      "catalogue"
+    ],
+    "rights_status": "supplier-reference",
+    "usage_allowed": "private-study-metadata; download per brand terms"
+  },
+  {
+    "source_name": "B&B Italia Product Drawings and Images",
+    "source_page_url": "https://content.bebitalia.com/en/products",
+    "category": "official-brand/furniture/bebitalia",
+    "tags": [
+      "B&B Italia",
+      "official-brand",
+      "2D-3D-files",
+      "product-images",
+      "drawings",
+      "dimensions-compositions"
+    ],
+    "rights_status": "supplier-reference",
+    "usage_allowed": "private-study-metadata; download per brand terms"
+  },
+  {
+    "source_name": "Artek Downloads",
+    "source_page_url": "https://www.artek.fi/en/downloads",
+    "category": "official-brand/furniture/artek",
+    "tags": [
+      "Artek",
+      "official-brand",
+      "catalogues",
+      "care-maintenance",
+      "patterns-textiles",
+      "product-page-downloads"
+    ],
+    "rights_status": "supplier-reference",
+    "usage_allowed": "private-study-metadata; download per brand terms"
+  },
+  {
+    "source_name": "Vitra Professional Downloads",
+    "source_page_url": "https://www.vitra.com/en-us/professionals/downloads",
+    "category": "official-brand/furniture/vitra",
+    "tags": [
+      "Vitra",
+      "official-brand",
+      "2D-3D-CAD",
+      "product-images",
+      "certificates",
+      "factsheets",
+      "materials"
+    ],
+    "rights_status": "supplier-reference",
+    "usage_allowed": "private-study-metadata; download per brand terms"
+  },
+  {
+    "source_name": "Minotti Revit Library",
+    "source_page_url": "https://www.minotti.com/en/check-out-minottis-revit-library",
+    "category": "official-brand/furniture/minotti",
+    "tags": [
+      "Minotti",
+      "official-brand",
+      "Revit",
+      "BIM",
+      "download-area",
+      "sofa",
+      "scene"
+    ],
+    "rights_status": "supplier-reference",
+    "usage_allowed": "private-study-metadata; registered downloads per brand terms"
+  },
+  {
+    "source_name": "Cassina Pro Official Tools",
+    "source_page_url": "https://www.cassina.com/ww/en/projects/cassina-pro.html",
+    "category": "official-brand/furniture/cassina",
+    "tags": [
+      "Cassina",
+      "official-brand",
+      "Cassina-Pro",
+      "2D-3D-drawings",
+      "lookbook",
+      "materials",
+      "BIFMA"
+    ],
+    "rights_status": "supplier-reference",
+    "usage_allowed": "private-study-metadata; download per brand terms"
+  },
+  {
+    "source_name": "Baxter Official Product Pages",
+    "source_page_url": "https://www.baxter.it/en/products/budapest-sofas-and-armchairs",
+    "category": "official-brand/furniture/baxter",
+    "tags": [
+      "Baxter",
+      "official-brand",
+      "sofa",
+      "leather",
+      "2D-3D-BIM-login",
+      "material-library",
+      "scene"
+    ],
+    "rights_status": "supplier-reference",
+    "usage_allowed": "private-study-metadata; download per brand terms"
+  },
+  {
+    "source_name": "The Met Collection API",
+    "source_page_url": "https://metmuseum.github.io/",
+    "category": "museum/furniture-textile",
+    "tags": [
+      "museum",
+      "furniture",
+      "textile",
+      "decorative-arts",
+      "public-domain-check"
+    ],
+    "rights_status": "check-per-object",
+    "usage_allowed": "metadata-and-public-domain-assets-only"
+  },
+  {
+    "source_name": "Cooper Hewitt Collection API",
+    "source_page_url": "https://collection.cooperhewitt.org/api/",
+    "category": "museum/design-object",
+    "tags": [
+      "museum",
+      "design",
+      "furniture",
+      "textile",
+      "metadata"
+    ],
+    "rights_status": "check-per-object",
+    "usage_allowed": "private-study-or-open-assets-only"
+  },
+  {
+    "source_name": "V&A API",
+    "source_page_url": "https://developers.vam.ac.uk/guide/v2/welcome.html",
+    "category": "museum/furniture-textile",
+    "tags": [
+      "museum",
+      "V&A",
+      "furniture",
+      "textile",
+      "decorative-arts"
+    ],
+    "rights_status": "check-per-object",
+    "usage_allowed": "metadata-and-permitted-assets-only"
+  },
+  {
+    "source_name": "ACT Textile Performance Guidelines",
+    "source_page_url": "https://contracttextiles.org/performance-guidelines/",
+    "category": "standards/textile-performance",
+    "tags": [
+      "textile",
+      "upholstery",
+      "performance",
+      "abrasion",
+      "flammability"
+    ],
+    "rights_status": "reference-only",
+    "usage_allowed": "citation-and-private-study"
+  },
+  {
+    "source_name": "Sweet Home 3D Free Models",
+    "source_page_url": "https://www.sweethome3d.com/free-3d-models/",
+    "category": "open-3d/furniture",
+    "tags": [
+      "3D",
+      "furniture",
+      "model-library",
+      "license-check"
+    ],
+    "rights_status": "check-per-library",
+    "usage_allowed": "license-dependent"
+  },
+  {
+    "source_name": "Poly Haven License",
+    "source_page_url": "https://polyhaven.com/license",
+    "category": "open-materials/cc0",
+    "tags": [
+      "CC0",
+      "texture",
+      "HDRI",
+      "render",
+      "material"
+    ],
+    "rights_status": "CC0",
+    "usage_allowed": "reuse-with-good-attribution-habit"
+  },
+  {
+    "source_name": "ambientCG License",
+    "source_page_url": "https://docs.ambientcg.com/license/",
+    "category": "open-materials/cc0",
+    "tags": [
+      "CC0",
+      "PBR",
+      "texture",
+      "material",
+      "render"
+    ],
+    "rights_status": "CC0",
+    "usage_allowed": "reuse-with-good-attribution-habit"
+  },
+  {
+    "source_name": "SketchUp 3D Warehouse Terms",
+    "source_page_url": "https://3dwarehouse.sketchup.com/tos/",
+    "category": "3d-models/terms",
+    "tags": [
+      "SketchUp",
+      "3D Warehouse",
+      "model-license",
+      "terms"
+    ],
+    "rights_status": "terms-dependent",
+    "usage_allowed": "check-before-client-use"
+  }
+]

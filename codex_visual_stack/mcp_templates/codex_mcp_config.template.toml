@@ -1,0 +1,42 @@
+# SA&BOO Codex MCP template — safe placeholder version
+# Copy into your local Codex config and replace ${...} values locally.
+# Do NOT commit real API keys, tokens, private relay URLs, or local secrets.
+
+[mcp_servers.autocad_mcp]
+command = "${PYTHON_BIN}"
+args = ["${AUTOCAD_MCP_SERVER_PATH}"]
+env = { AUTOCAD_MCP_BACKEND = "${AUTOCAD_MCP_BACKEND:-file_ipc_or_ezdxf}", AUTOCAD_MCP_IPC_TIMEOUT = "${AUTOCAD_MCP_IPC_TIMEOUT:-10}" }
+
+[mcp_servers.cadq]
+command = "${CADQ_BIN}"
+args = ["mcp", "serve"]
+env = { CADQ_CACHE_DIR = "${CADQ_CACHE_DIR}" }
+
+[mcp_servers.sketchup_mcp]
+# SketchUp plugin side usually listens on localhost:9876.
+# Use a local bridge script if your Codex setup supports external MCP stdio.
+command = "${PYTHON_BIN}"
+args = ["${SKETCHUP_MCP_BRIDGE_SCRIPT}", "--host", "127.0.0.1", "--port", "9876"]
+
+[mcp_servers.figma]
+command = "${FIGMA_MCP_COMMAND}"
+args = ["${FIGMA_MCP_ARGS}"]
+env = { FIGMA_ACCESS_TOKEN = "${FIGMA_ACCESS_TOKEN}" }
+
+[mcp_servers.browser]
+command = "${BROWSER_MCP_COMMAND}"
+args = ["${BROWSER_MCP_ARGS}"]
+
+[mcp_servers.github]
+command = "${GITHUB_MCP_COMMAND}"
+args = ["${GITHUB_MCP_ARGS}"]
+env = { GITHUB_TOKEN = "${GITHUB_TOKEN}" }
+
+[env_placeholders]
+OPENAI_API_KEY = "${OPENAI_API_KEY}"
+AIMAMI_RELAY_URL = "${AIMAMI_RELAY_URL}"
+AIMAMI_RELAY_TOKEN = "${AIMAMI_RELAY_TOKEN}"
+FIGMA_ACCESS_TOKEN = "${FIGMA_ACCESS_TOKEN}"
+GITHUB_TOKEN = "${GITHUB_TOKEN}"
+ENSCAPE_INSTALLER_PATH = "${ENSCAPE_INSTALLER_PATH}"
+SKETCHUP_PLUGIN_DIR = "${SKETCHUP_PLUGIN_DIR}"

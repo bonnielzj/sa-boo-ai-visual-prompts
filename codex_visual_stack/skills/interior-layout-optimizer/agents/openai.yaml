@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interior Layout Optimizer"
+  short_description: "CAD-accurate residential plan optimizer."
+  default_prompt: "Use $interior-layout-optimizer to audit a residential plan with CAD/MCP accuracy, retrieve SC071 precedents, diagnose circulation/storage/wet-area constraints, and propose measurable layout options without random changes from blurry images."

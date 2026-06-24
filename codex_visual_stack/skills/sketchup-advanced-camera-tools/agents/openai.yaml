@@ -1,0 +1,4 @@
+interface:
+  display_name: "SketchUp Advanced Camera Tools"
+  short_description: "Plan physical camera scenes and render views"
+  default_prompt: "Use $sketchup-advanced-camera-tools to plan camera shots, focal length, aspect ratio, and safe-zone scenes for my SketchUp interior model."

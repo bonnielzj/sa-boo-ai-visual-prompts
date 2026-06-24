@@ -1,0 +1,4 @@
+interface:
+  display_name: "SketchUp Floor Panel Grid"
+  short_description: "Generate floor and wall panel grids in SketchUp"
+  default_prompt: "Use $sketchup-floor-panel-grid to plan a floor or wall panel grid with panel size, thickness, spacing, material, and QA notes in SketchUp."

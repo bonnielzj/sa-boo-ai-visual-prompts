@@ -1,0 +1,2 @@
+﻿Price ID,Material ID,Supplier ID,Date,Unit Price,Currency,Tax Included,Freight Included,Install Included,Quote Valid Until,Source,Notes
+PRICE-0001,MAT-0001,SUP-0001,2026-06-22,220,CNY,No,No,No,,sample quote,verify before issue

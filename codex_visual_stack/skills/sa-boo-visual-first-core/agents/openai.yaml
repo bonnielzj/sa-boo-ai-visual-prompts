@@ -1,0 +1,4 @@
+interface:
+  display_name: "SA&BOO Visual First Core"
+  short_description: "Mandatory visual-first doctrine for SA&BOO skills."
+  default_prompt: "Apply the SA&BOO visual-first core rule: build a high-quality visual asset chain first, then use text as interpretation and structure."

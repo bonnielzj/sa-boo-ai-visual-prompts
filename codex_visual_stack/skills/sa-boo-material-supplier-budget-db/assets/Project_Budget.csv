@@ -1,0 +1,2 @@
+﻿Line ID,Project,Area / Room,Package,Item,Material ID,Supplier ID,Spec,Quantity,Unit,Unit Price Estimate,Quote Unit Price,Approved Unit Price,Tax Rate,Freight,Install Cost,Contingency %,Estimated Total,Quoted Total,Approved Total,Target Budget,Variance,Variance %,Approval Status,Procurement Status,Required Date,Risk Level,Notes
+PB-0001,Sample Project,Living Room,Wall Finish,Feature wall art paint,MAT-0001,SUP-0001,Warm grey matte,35,m2,220,240,240,0.13,300,1200,0.08,,,,10000,,,pending,quoted,,medium,sample line

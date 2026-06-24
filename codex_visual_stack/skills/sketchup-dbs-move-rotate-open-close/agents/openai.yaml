@@ -1,0 +1,4 @@
+interface:
+  display_name: "SketchUp DBS Open Close"
+  short_description: "Animate doors, drawers, and movable parts."
+  default_prompt: "Use $sketchup-dbs-move-rotate-open-close to plan an open/close, move, rotate, door, drawer, or cabinet animation workflow in SketchUp."

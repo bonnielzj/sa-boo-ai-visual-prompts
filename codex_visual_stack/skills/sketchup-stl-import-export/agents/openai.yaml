@@ -1,0 +1,4 @@
+interface:
+  display_name: "SketchUp STL Import Export"
+  short_description: "STL import, export, and mesh QA."
+  default_prompt: "Use SketchUp STL Import Export to prepare, import, export, check units, and QA STL files with SketchUp 2025."

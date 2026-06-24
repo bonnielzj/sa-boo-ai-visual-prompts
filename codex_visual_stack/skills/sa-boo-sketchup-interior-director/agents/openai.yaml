@@ -1,0 +1,4 @@
+interface:
+  display_name: "SA&BOO SketchUp Interior Director"
+  short_description: "Integrated bilingual SketchUp director."
+  default_prompt: "Use $sa-boo-sketchup-interior-director to coordinate Bonnie's Chinese/English interior idea, CAD/layout evidence, SketchUp/3D model, visual asset chain, Enscape/AI/imagegen routes, QA gates, and presentation outputs through the integrated SA&BOO production loop."

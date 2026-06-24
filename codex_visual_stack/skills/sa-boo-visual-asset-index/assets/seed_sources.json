@@ -1,0 +1,66 @@
+[
+  {
+    "source_name": "D5 Interior Solution",
+    "source_page_url": "https://www.d5render.com/solutions/interior",
+    "category": "render/interior",
+    "tags": ["D5", "interior", "lighting", "material", "real-time-render"],
+    "rights_status": "reference-only",
+    "usage_allowed": "private-study"
+  },
+  {
+    "source_name": "D5 Branded Interior Models",
+    "source_page_url": "https://www.d5render.com/posts/upgrade-renders-1200-branded-interior-design-models-d5",
+    "category": "render/interior-asset",
+    "tags": ["D5", "interior", "furniture", "asset-library", "material"],
+    "rights_status": "reference-only",
+    "usage_allowed": "private-study"
+  },
+  {
+    "source_name": "D5 Vintage Interior Guide",
+    "source_page_url": "https://www.d5render.com/posts/visualize-vintage-interior-design-d5-render",
+    "category": "render/interior-style",
+    "tags": ["D5", "vintage", "living-room", "lighting", "composition"],
+    "rights_status": "reference-only",
+    "usage_allowed": "private-study"
+  },
+  {
+    "source_name": "Enscape Features",
+    "source_page_url": "https://www.enscape3d.com/features/",
+    "category": "render/workflow",
+    "tags": ["Enscape", "real-time", "walkthrough", "visual-settings"],
+    "rights_status": "reference-only",
+    "usage_allowed": "private-study"
+  },
+  {
+    "source_name": "Chaos Gallery",
+    "source_page_url": "https://www.chaos.com/gallery",
+    "category": "render/gallery",
+    "tags": ["Chaos", "Enscape", "V-Ray", "gallery", "render"],
+    "rights_status": "reference-only",
+    "usage_allowed": "private-study"
+  },
+  {
+    "source_name": "Twinmotion Documentation",
+    "source_page_url": "https://dev.epicgames.com/documentation/en-us/twinmotion",
+    "category": "render/twinmotion",
+    "tags": ["Twinmotion", "media", "presentation", "phasing"],
+    "rights_status": "reference-only",
+    "usage_allowed": "private-study"
+  },
+  {
+    "source_name": "Figma Brand Guidelines",
+    "source_page_url": "https://www.figma.com/using-the-figma-brand/",
+    "category": "brand-system",
+    "tags": ["Figma", "brand-guidelines", "brand-kit", "visual-system"],
+    "rights_status": "reference-only",
+    "usage_allowed": "private-study"
+  },
+  {
+    "source_name": "Figma Buzz",
+    "source_page_url": "https://www.figma.com/buzz/",
+    "category": "brand-production",
+    "tags": ["Figma", "Buzz", "brand-assets", "template-system"],
+    "rights_status": "reference-only",
+    "usage_allowed": "private-study"
+  }
+]

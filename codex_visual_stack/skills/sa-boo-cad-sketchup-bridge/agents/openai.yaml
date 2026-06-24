@@ -1,0 +1,4 @@
+interface:
+  display_name: "SA&BOO CAD SketchUp Bridge"
+  short_description: "Bridge CAD and SketchUp workflows."
+  default_prompt: "Use SA&BOO CAD SketchUp Bridge to clean CAD drawings for SketchUp, build white models from CAD, export SketchUp visual decisions back to CAD construction drawings, and keep a visual-first CAD↔SketchUp project loop."

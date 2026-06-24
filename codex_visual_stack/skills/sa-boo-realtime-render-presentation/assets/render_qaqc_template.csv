@@ -1,0 +1,11 @@
+﻿Category,Check,Result/Notes
+Model,Units/scale correct,
+Model,No missing/duplicate surfaces,
+Lighting,One clear lighting story,
+Lighting,Exposure consistent across before/after,
+Material,Texture scale correct,
+Material,Reflection/roughness controlled,
+Camera,Verticals corrected,
+Camera,Before/after cameras locked,
+Export,Correct platform sizes,
+Export,Disclaimer added if conceptual,

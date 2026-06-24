@@ -1,0 +1,6 @@
+interface:
+  display_name: "SA&BOO Visual Asset Index"
+  short_description: "原始视觉资产缓存、链表与向量化索引"
+  default_prompt: "Use $sa-boo-visual-asset-index to create a cited, searchable visual asset index for SA&BOO design learning and references."
+policy:
+  allow_implicit_invocation: true

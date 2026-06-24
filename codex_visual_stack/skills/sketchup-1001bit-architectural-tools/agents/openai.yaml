@@ -1,0 +1,6 @@
+interface:
+  display_name: "SketchUp 1001bit Tools"
+  short_description: "Fast architectural white-model helpers."
+  default_prompt: "Use $sketchup-1001bit-architectural-tools to plan a SketchUp workflow for walls, openings, stairs, louvres, grilles, roofs, arrays, or architectural white-model elements."
+policy:
+  allow_implicit_invocation: true

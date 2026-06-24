@@ -1,0 +1,4 @@
+interface:
+  display_name: "SketchUp ColorMaker Palettes"
+  short_description: "Create standard color materials in SketchUp"
+  default_prompt: "Use $sketchup-color-maker-palettes to plan RAL, NCS, Pantone, web, or color-temperature material palettes for my SketchUp interior model."

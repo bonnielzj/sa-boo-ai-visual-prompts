@@ -1,0 +1,4 @@
+interface:
+  display_name: "SketchUp LightUp Lighting"
+  short_description: "Plan LightUp realtime lighting and daylight checks"
+  default_prompt: "Use $sketchup-lightup-lighting to plan LightUp realtime lighting, IES tests, daylight checks, and render QA for my SketchUp interior model."

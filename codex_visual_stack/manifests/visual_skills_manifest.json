@@ -1,0 +1,1156 @@
+{
+  "created_at": "2026-06-24T23:25:47",
+  "count": 72,
+  "skills": [
+    {
+      "name": "ads-explorer",
+      "folder": "ads-explorer",
+      "skill_md": "codex_visual_stack/skills/ads-explorer/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "scripts/build_ads_explorer.py"
+      ],
+      "description": "Explore a supplied product, service, venue, or offer across a diverse 25-family image-ad prompt library. Use when the user wants Ads Explorer, ad directions, image ad prompts, paid social ideas, broad campaign ad exploration, or a review wall before final production."
+    },
+    {
+      "name": "autocad-drafting",
+      "folder": "autocad-drafting",
+      "skill_md": "codex_visual_stack/skills/autocad-drafting/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "NOTICE.md",
+        "references/tool-reference.md"
+      ],
+      "description": ">"
+    },
+    {
+      "name": "cadq",
+      "folder": "cadq",
+      "skill_md": "codex_visual_stack/skills/cadq/SKILL.md",
+      "file_count": 4,
+      "files": [
+        "SKILL.md",
+        "references/ontology.md",
+        "references/workflows.md",
+        "scripts/quickstart.ps1"
+      ],
+      "description": "Query DWG/DXF CAD drawings semantically from Copilot Chat using the cadq CLI and MCP server. USE WHEN the user asks spatial or semantic questions about a CAD drawing — \"highest point\", \"where is the driveway\", \"how big is the lawn or garden\", \"boundary of the building\", \"how many trees\", \"what's nea"
+    },
+    {
+      "name": "documents",
+      "folder": "documents",
+      "skill_md": "codex_visual_stack/skills/documents/SKILL.md",
+      "file_count": 75,
+      "files": [
+        "manifest.txt",
+        "SKILL.md",
+        "render_docx.py",
+        "LICENSE.txt",
+        "tasks/footnotes_endnotes.md",
+        "tasks/forms_content_controls.md",
+        "tasks/captions_crossrefs.md",
+        "tasks/read_review.md",
+        "tasks/comments_manage.md",
+        "tasks/protection_restrict_editing.md",
+        "tasks/compare_diff.md",
+        "tasks/clean_tracked_changes.md",
+        "tasks/headings_numbering.md",
+        "tasks/privacy_scrub_metadata.md",
+        "tasks/templates_style_packs.md",
+        "tasks/fixtures_edge_cases.md",
+        "tasks/style_lint_normalize.md",
+        "tasks/tables_spreadsheets.md",
+        "tasks/navigation_internal_links.md",
+        "tasks/verify_render.md",
+        "tasks/watermarks_background.md",
+        "tasks/sections_layout.md",
+        "tasks/accessibility_a11y.md",
+        "tasks/images_figures.md",
+        "tasks/redaction_anonymization.md",
+        "tasks/fields_update.md",
+        "tasks/create_edit.md",
+        "tasks/toc_workflow.md",
+        "tasks/multi_doc_merge.md",
+        "references/header_templates.md",
+        "references/design_presets.md",
+        "agents/openai.yaml",
+        "ooxml/comments.md",
+        "ooxml/rels_and_content_types.md",
+        "ooxml/tracked_changes.md",
+        "ooxml/hyperlinks_and_fields.md",
+        "troubleshooting/libreoffice_headless.md",
+        "troubleshooting/run_splitting.md",
+        "examples/end_to_end_smoke_test.md",
+        "scripts/watermark_audit_remove.py",
+        "scripts/internal_nav.py",
+        "scripts/xlsx_to_docx_table.py",
+        "scripts/heading_audit.py",
+        "scripts/google_docs_title_sanitize.py",
+        "scripts/images_audit.py",
+        "scripts/docx_table_to_csv.py",
+        "scripts/apply_template_styles.py",
+        "scripts/footnotes_report.py",
+        "scripts/style_lint.py",
+        "scripts/comments_apply_patch.py",
+        "scripts/merge_docx_append.py",
+        "scripts/accept_tracked_changes.py",
+        "scripts/insert_ref_fields.py",
+        "scripts/section_audit.py",
+        "scripts/comments_strip.py",
+        "scripts/fields_report.py",
+        "scripts/captions_and_crossrefs.py",
+        "scripts/watermark_add.py",
+        "scripts/render_and_diff.py",
+        "scripts/comments_add.py",
+        "scripts/insert_toc.py",
+        "scripts/flatten_ref_fields.py",
+        "scripts/docx_ooxml_patch.py",
+        "scripts/privacy_scrub.py",
+        "scripts/insert_note.py",
+        "scripts/make_fixtures.py",
+        "scripts/content_controls.py",
+        "scripts/style_normalize.py",
+        "scripts/fields_materialize.py",
+        "scripts/table_geometry.py",
+        "scripts/a11y_audit.py",
+        "scripts/comments_extract.py",
+        "scripts/add_tracked_replacements.py",
+        "scripts/redact_docx.py",
+        "scripts/set_protection.py"
+      ],
+      "description": "Create, edit, redline, and comment on `.docx`, Word, and Google Docs-targeted document artifacts inside the container, with a strict render-and-verify workflow. Use `render_docx.py` to generate page PNGs (and optional PDF) for visual QA, then iterate until layout is flawless before delivering the fi"
+    },
+    {
+      "name": "explore",
+      "folder": "explore",
+      "skill_md": "codex_visual_stack/skills/explore/SKILL.md",
+      "file_count": 2,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "description": "Use when a broad business creative brief needs the Creative Production Explore front door: a compact chooser for Positioning, Mood boards, Scenes, Offers, Ads, Shots, Logos, or active production Assets."
+    },
+    {
+      "name": "figma-code-connect",
+      "folder": "figma-code-connect",
+      "skill_md": "codex_visual_stack/skills/figma-code-connect/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/api.md",
+        "references/advanced-patterns.md"
+      ],
+      "description": "Creates and maintains Figma Code Connect template files that map Figma components to code snippets. Use when the user mentions Code Connect, Figma component mapping, design-to-code translation, or asks to create/update .figma.ts or .figma.js files."
+    },
+    {
+      "name": "figma-create-new-file",
+      "folder": "figma-create-new-file",
+      "skill_md": "codex_visual_stack/skills/figma-create-new-file/SKILL.md",
+      "file_count": 1,
+      "files": [
+        "SKILL.md"
+      ],
+      "description": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `create_new_file` tool call. NEVER call `create_new_file` directly without loading this skill first. Trigger whenever the user wants a new blank Figma file — a new design, FigJam, or Slides file — or when you need a fresh file befo"
+    },
+    {
+      "name": "figma-generate-design",
+      "folder": "figma-generate-design",
+      "skill_md": "codex_visual_stack/skills/figma-generate-design/SKILL.md",
+      "file_count": 1,
+      "files": [
+        "SKILL.md"
+      ],
+      "description": "Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: 'write to Figma', 'create in Figma from code', 'push page to Figma', 'take this app/page and build it in Figma', 'create a screen', 'build a landing page in "
+    },
+    {
+      "name": "figma-generate-diagram",
+      "folder": "figma-generate-diagram",
+      "skill_md": "codex_visual_stack/skills/figma-generate-diagram/SKILL.md",
+      "file_count": 8,
+      "files": [
+        "SKILL.md",
+        "references/erd.md",
+        "references/architecture.md",
+        "references/state.md",
+        "references/workflow.md",
+        "references/flowchart.md",
+        "references/sequence.md",
+        "references/gantt.md"
+      ],
+      "description": "MANDATORY prerequisite — load this skill BEFORE every `generate_diagram` tool call. NEVER call `generate_diagram` directly without loading this skill first. Trigger whenever the user asks to create, generate, draw, render, sketch, or build a diagram — flowchart, architecture diagram, sequence diagra"
+    },
+    {
+      "name": "figma-generate-library",
+      "folder": "figma-generate-library",
+      "skill_md": "codex_visual_stack/skills/figma-generate-library/SKILL.md",
+      "file_count": 17,
+      "files": [
+        "SKILL.md",
+        "references/component-creation.md",
+        "references/token-creation.md",
+        "references/naming-conventions.md",
+        "references/documentation-creation.md",
+        "references/code-connect-setup.md",
+        "references/error-recovery.md",
+        "references/discovery-phase.md",
+        "scripts/bindVariablesToComponent.js",
+        "scripts/createVariableCollection.js",
+        "scripts/createComponentWithVariants.js",
+        "scripts/rehydrateState.js",
+        "scripts/createSemanticTokens.js",
+        "scripts/cleanupOrphans.js",
+        "scripts/validateCreation.js",
+        "scripts/createDocumentationPage.js",
+        "scripts/inspectFileStructure.js"
+      ],
+      "description": "Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variables/tokens, build component libraries, create individual components with proper variant sets and variable bindings, set up theming (light/dark modes), document foundations, or reconci"
+    },
+    {
+      "name": "figma-use",
+      "folder": "figma-use",
+      "skill_md": "codex_visual_stack/skills/figma-use/SKILL.md",
+      "file_count": 21,
+      "files": [
+        "SKILL.md",
+        "references/component-patterns.md",
+        "references/gotchas.md",
+        "references/effect-style-patterns.md",
+        "references/plugin-api-standalone.index.md",
+        "references/plugin-api-standalone.d.ts",
+        "references/plugin-api-patterns.md",
+        "references/common-patterns.md",
+        "references/variable-patterns.md",
+        "references/validation-and-recovery.md",
+        "references/text-style-patterns.md",
+        "references/api-reference.md",
+        "references/working-with-design-systems/wwds.md",
+        "references/working-with-design-systems/wwds-variables.md",
+        "references/working-with-design-systems/wwds-variables--creating.md",
+        "references/working-with-design-systems/wwds-effect-styles.md",
+        "references/working-with-design-systems/wwds-components--creating.md",
+        "references/working-with-design-systems/wwds-text-styles.md",
+        "references/working-with-design-systems/wwds-components.md",
+        "references/working-with-design-systems/wwds-variables--using.md",
+        "references/working-with-design-systems/wwds-components--using.md"
+      ],
+      "description": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `use_figma` tool call. NEVER call `use_figma` directly without loading this skill first. Skipping it causes common, hard-to-debug failures. Trigger whenever the user wants to perform a write action or a unique read action that requ"
+    },
+    {
+      "name": "figma-use-figjam",
+      "folder": "figma-use-figjam",
+      "skill_md": "codex_visual_stack/skills/figma-use-figjam/SKILL.md",
+      "file_count": 14,
+      "files": [
+        "SKILL.md",
+        "references/batch-modify.md",
+        "references/create-sticky.md",
+        "references/create-shape-with-text.md",
+        "references/create-code-block.md",
+        "references/create-text.md",
+        "references/position-figjam-nodes.md",
+        "references/create-table.md",
+        "references/plan-board-content.md",
+        "references/edit-text.md",
+        "references/figjam-colors.md",
+        "references/create-section.md",
+        "references/create-connector.md",
+        "references/create-label.md"
+      ],
+      "description": "This skill helps agents use Figma's use_figma MCP tool in the FigJam context. Can be used alongside figma-use which has foundational context for using the use_figma tool."
+    },
+    {
+      "name": "figma-use-slides",
+      "folder": "figma-use-slides",
+      "skill_md": "codex_visual_stack/skills/figma-use-slides/SKILL.md",
+      "file_count": 7,
+      "files": [
+        "SKILL.md",
+        "references/slide-design.md",
+        "references/slide-content.md",
+        "references/slide-gotchas.md",
+        "references/slide-lifecycle.md",
+        "references/slide-properties.md",
+        "references/slide-grid.md"
+      ],
+      "description": "This skill helps agents use Figma's use_figma MCP tool in the Slides context. Can be used alongside figma-use which has foundational context for using the use_figma tool."
+    },
+    {
+      "name": "generative-polish",
+      "folder": "generative-polish",
+      "skill_md": "codex_visual_stack/skills/generative-polish/SKILL.md",
+      "file_count": 2,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "description": "Create publish-safe generative polish for business visuals. Use when the user"
+    },
+    {
+      "name": "imagegen",
+      "folder": "imagegen",
+      "skill_md": "codex_visual_stack/skills/imagegen/SKILL.md",
+      "file_count": 11,
+      "files": [
+        "SKILL.md",
+        "LICENSE.txt",
+        "references/sample-prompts.md",
+        "references/cli.md",
+        "references/codex-network.md",
+        "references/image-api.md",
+        "references/prompting.md",
+        "agents/openai.yaml",
+        "scripts/remove_chroma_key.py",
+        "scripts/image_gen.py",
+        "assets/imagegen-small.svg"
+      ],
+      "description": "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, a"
+    },
+    {
+      "name": "interior-layout-optimizer",
+      "folder": "interior-layout-optimizer",
+      "skill_md": "codex_visual_stack/skills/interior-layout-optimizer/SKILL.md",
+      "file_count": 7,
+      "files": [
+        "SKILL.md",
+        "references/layout-optimization-logic.md",
+        "references/cad-accuracy-workflow.md",
+        "references/source-index.md",
+        "agents/openai.yaml",
+        "scripts/query_index.rb",
+        "scripts/build_index.rb"
+      ],
+      "description": "Residential interior floor-plan layout optimization with CAD/MCP accuracy gates and SABOO SC071 asset-library vector retrieval. Use when Codex needs to critique, optimize, redraw, compare, or propose apartment/flat/duplex/villa layouts; audit DWG/DXF/PDF/image plans; use cadq, AutoCAD MCP, CAD↔Sketc"
+    },
+    {
+      "name": "logo-explorer",
+      "folder": "logo-explorer",
+      "skill_md": "codex_visual_stack/skills/logo-explorer/SKILL.md",
+      "file_count": 7,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "scripts/create_logo_explorer.py",
+        "assets/logo-explorer-app/index.html",
+        "assets/logo-explorer-app/styles.css",
+        "assets/logo-explorer-app/server.mjs",
+        "assets/logo-explorer-app/app.js"
+      ],
+      "description": "Use when a brand brief needs identity concepts, wordmarks, lockups, identity-system routes, or a logo review board before vector production or final brand polish."
+    },
+    {
+      "name": "moodboard-explorer",
+      "folder": "moodboard-explorer",
+      "skill_md": "codex_visual_stack/skills/moodboard-explorer/SKILL.md",
+      "file_count": 15,
+      "files": [
+        "SKILL.md",
+        "references/intake.md",
+        "agents/openai.yaml",
+        "scripts/create_mood_board.py",
+        "scripts/embed_moodboard_images.py",
+        "assets/mood-board-app/codex-theme.css",
+        "assets/mood-board-app/index.html",
+        "assets/mood-board-app/styles.css",
+        "assets/mood-board-app/theme.js",
+        "assets/mood-board-app/platform-icons.js",
+        "assets/mood-board-app/server.mjs",
+        "assets/mood-board-app/mood-board.html",
+        "assets/mood-board-app/app.js",
+        "assets/mood-board-app/data/stream.json",
+        "assets/mood-board-app/data/stream-static.json"
+      ],
+      "description": "Use when a user asks Creative Production to generate several concept images, image options, visual directions, mood boards, visual territories, audience feel, campaign references, or brand direction before mood-board remixing, asset production, or polish."
+    },
+    {
+      "name": "offer-explorer",
+      "folder": "offer-explorer",
+      "skill_md": "codex_visual_stack/skills/offer-explorer/SKILL.md",
+      "file_count": 4,
+      "files": [
+        "SKILL.md",
+        "references/packs/digital-product-placements.json",
+        "agents/openai.yaml",
+        "scripts/build_offer_explorer.py"
+      ],
+      "description": "Use when a product, digital product, service, venue, experience, or campaign brief needs 25-family offer-led prompt exploration, contact sheets, review galleries, or coverage checks before remix, asset production, or polish."
+    },
+    {
+      "name": "pdf",
+      "folder": "pdf",
+      "skill_md": "codex_visual_stack/skills/pdf/SKILL.md",
+      "file_count": 2,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "description": "Read, create, inspect, render, and verify PDF files where visual layout matters. Use Poppler rendering plus Python tools such as reportlab, pdfplumber, and pypdf for generation and extraction."
+    },
+    {
+      "name": "positioning-explorer",
+      "folder": "positioning-explorer",
+      "skill_md": "codex_visual_stack/skills/positioning-explorer/SKILL.md",
+      "file_count": 2,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "description": "Explore commercially useful positioning routes before visual generation. Use when the user needs to clarify audience, occasion, growth goal, proof, or market angle before mood boards, scenes, business assets, ads, menus, cards, one-pagers, listings, or social posts."
+    },
+    {
+      "name": "Presentations",
+      "folder": "presentations",
+      "skill_md": "codex_visual_stack/skills/presentations/SKILL.md",
+      "file_count": 136,
+      "files": [
+        "SKILL.md",
+        "references/template-following.md",
+        "agents/openai.yaml",
+        "container_tools/artifact_tool_utils.mjs",
+        "container_tools/setup_artifact_tool_workspace.mjs",
+        "container_tools/rasterize_svg.mjs",
+        "container_tools/render_slides.py",
+        "container_tools/render_presentation.mjs",
+        "container_tools/slides_test.py",
+        "container_tools/create_montage.py",
+        "container_tools/runtime_tools.py",
+        "container_tools/ensure_raster_image.py",
+        "template_following_scripts/check_template_fidelity.mjs",
+        "template_following_scripts/inspect_template_deck.mjs",
+        "template_following_scripts/validate_template_plan.mjs",
+        "template_following_scripts/prepare_template_starter_deck.mjs",
+        "template_following_scripts/make_contact_sheet.py",
+        "assets/artifact-md/codex-grid-layout-library/content.json",
+        "assets/artifact-md/codex-grid-layout-library/design_tokens.json",
+        "assets/artifact-md/codex-grid-layout-library/ARTIFACT.md",
+        "assets/artifact-md/codex-grid-layout-library/manifest.json",
+        "assets/artifact-md/codex-grid-layout-library/agent/prompts/presentation.md",
+        "assets/artifact-md/codex-grid-layout-library/agent/prompts/common.md",
+        "assets/artifact-md/codex-grid-layout-library/scripts/index.json",
+        "assets/artifact-md/codex-grid-layout-library/scripts/snippets/create-presentation.mjs",
+        "assets/artifact-md/codex-grid-layout-library/scripts/snippets/reconstruct-artifact-tool.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-29.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-15.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-01.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-14.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-28.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-02.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-16.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-17.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-03.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-07.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-13.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-12.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-06.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-10.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-04.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-38.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-39.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-05.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-11.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-76.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-62.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-63.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-77.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-49.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-61.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-75.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-74.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-60.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-48.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-64.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-70.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-58.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-59.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-71.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-65.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-73.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-67.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-66.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-72.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-57.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-43.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-80.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-42.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-56.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-68.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-40.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-54.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/runtime.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-55.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-41.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-69.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-45.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-51.mjs",
+        "assets/artifact-md/codex-grid-layout-library/artifact-tool-compose/slide-79.mjs"
+      ],
+      "description": "Create or edit PowerPoint or Google Slides decks"
+    },
+    {
+      "name": "sa-boo-autocad-construction-standard",
+      "folder": "sa-boo-autocad-construction-standard",
+      "skill_md": "codex_visual_stack/skills/sa-boo-autocad-construction-standard/SKILL.md",
+      "file_count": 12,
+      "files": [
+        "SKILL.md",
+        "references/version-revision-standard.md",
+        "references/qaqc-checklist.md",
+        "references/annotation-standard.md",
+        "references/layer-standard.md",
+        "agents/openai.yaml",
+        "scripts/generate_cad_assets.py",
+        "assets/create_samboo_layers.lsp",
+        "assets/change_log_template.csv",
+        "assets/create_samboo_layers.scr",
+        "assets/samboo_layer_standard.csv",
+        "assets/sheet_index_template.csv"
+      ],
+      "description": "SA&BOO AutoCAD construction drawing standard for interior design and renovation drawings, including CAD layer naming, colors/lineweights, annotation and dimension styles, title blocks, sheet/file naming, issue versions, revision clouds, change logs, redlines, QA/QC checks, and AutoCAD MCP drafting s"
+    },
+    {
+      "name": "sa-boo-brand-director",
+      "folder": "sa-boo-brand-director",
+      "skill_md": "codex_visual_stack/skills/sa-boo-brand-director/SKILL.md",
+      "file_count": 2,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SA&BOO brand creative director workflow for brand strategy, personal brand systems, logo/core-symbol development, visual identity systems, design methodology, creative direction, brand proposal language, and AI prompt framing. Use when the user asks to build or analyze a brand, develop logo/VI/visua"
+    },
+    {
+      "name": "sa-boo-cad-sketchup-bridge",
+      "folder": "sa-boo-cad-sketchup-bridge",
+      "skill_md": "codex_visual_stack/skills/sa-boo-cad-sketchup-bridge/SKILL.md",
+      "file_count": 5,
+      "files": [
+        "SKILL.md",
+        "references/bridge-qaqc.md",
+        "references/cad-to-sketchup.md",
+        "references/sketchup-to-cad.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SA&BOO CAD↔SketchUp bridge workflow for interior design, renovation, and visual-first project delivery. Use when Codex needs to connect AutoCAD/DWG/DXF drawings with SketchUp 2025 modeling, clean CAD plans for SketchUp import, query or audit CAD files, create SU-ready reference drawings, build white"
+    },
+    {
+      "name": "sa-boo-co-design-interior-partner",
+      "folder": "sa-boo-co-design-interior-partner",
+      "skill_md": "codex_visual_stack/skills/sa-boo-co-design-interior-partner/SKILL.md",
+      "file_count": 2,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SA&BOO interactive interior co-design partner protocol. Use for Bonnie's real interior design, renovation, soft-decoration, CAD, SketchUp, rendering, material, proposal, and project-review work when Codex must collaborate like a design partner rather than act as an autonomous/无脑 robot. Trigger when "
+    },
+    {
+      "name": "sa-boo-design-research-radar",
+      "folder": "sa-boo-design-research-radar",
+      "skill_md": "codex_visual_stack/skills/sa-boo-design-research-radar/SKILL.md",
+      "file_count": 8,
+      "files": [
+        "SKILL.md",
+        "references/trend-taxonomy.md",
+        "references/mcp-reserve.md",
+        "references/source-map.md",
+        "references/learning-roadmap.md",
+        "references/mac-interior-tool-stack.md",
+        "references/risk-checklist.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SA&BOO design research radar for current interior design, renovation, brand/visual identity, AI creative tools, model workflow, Chinese and global design/social trend scanning, learning roadmaps, and tool/MCP stack planning. Use when the user asks to research design公众号/论坛/设计网站/小红书/抖音/Behance/Pintere"
+    },
+    {
+      "name": "sa-boo-east-west-luxury-interior",
+      "folder": "sa-boo-east-west-luxury-interior",
+      "skill_md": "codex_visual_stack/skills/sa-boo-east-west-luxury-interior/SKILL.md",
+      "file_count": 2,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SA&BOO luxury interior and spatial narrative writing skill for design briefs, project descriptions, proposal copy, bilingual Chinese-English design language, commercial/office/residential interiors, East-West cultural fusion, low-key luxury, light/material/ceremony narratives, and client-facing desi"
+    },
+    {
+      "name": "sa-boo-figma-brand-kit",
+      "folder": "sa-boo-figma-brand-kit",
+      "skill_md": "codex_visual_stack/skills/sa-boo-figma-brand-kit/SKILL.md",
+      "file_count": 9,
+      "files": [
+        "SKILL.md",
+        "references/token-schema.md",
+        "references/brand-kit-operating-method.md",
+        "references/plugin-mcp-evaluation.md",
+        "references/qa-checklist.md",
+        "references/template-recipes.md",
+        "agents/openai.yaml",
+        "scripts/generate_starter_tokens.py",
+        "assets/samboo-brand-kit.tokens.json"
+      ],
+      "description": "SA&BOO Figma Brand Kit workflow for building practical brand asset libraries, design tokens, variables, styles, components, proposal/social templates, and AI/MCP-assisted Figma production. Use when the user asks to create, learn, audit, or operationalize a Figma Brand Kit, design system, brand guide"
+    },
+    {
+      "name": "sa-boo-furniture-textile-softdecor",
+      "folder": "sa-boo-furniture-textile-softdecor",
+      "skill_md": "codex_visual_stack/skills/sa-boo-furniture-textile-softdecor/SKILL.md",
+      "file_count": 18,
+      "files": [
+        "SKILL.md",
+        "references/co-design-operating-protocol.md",
+        "references/knowledge-map.md",
+        "references/source-map.md",
+        "references/rapid-skill-router.md",
+        "references/ergonomics-proportion-classics.md",
+        "references/cad-sketchup-bridge.md",
+        "references/system-furniture-custom-cabinetry.md",
+        "references/furniture-taxonomy.md",
+        "references/aesthetic-logic.md",
+        "references/official-brand-cycle.md",
+        "references/textile-softdecor-materials.md",
+        "agents/openai.yaml",
+        "scripts/create_ffe_knowledge_base.py",
+        "assets/source_seeds.json",
+        "assets/system_furniture_schema.csv",
+        "assets/ffe_knowledge_schema.csv",
+        "assets/ergonomics_proportion_schema.csv"
+      ],
+      "description": "SA&BOO furniture, textile, soft-decoration, FF&E, styling, and interior object knowledge system. Use when Codex needs to learn, research, specify, compare, audit, source, model, tag, draw, render, or present furniture, upholstery, curtains, rugs, bedding, cushions, lighting/decor objects, system fur"
+    },
+    {
+      "name": "sa-boo-lineart-blueprint",
+      "folder": "sa-boo-lineart-blueprint",
+      "skill_md": "codex_visual_stack/skills/sa-boo-lineart-blueprint/SKILL.md",
+      "file_count": 2,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SA&BOO technical line-art and blueprint prompt workflow for product design sketches, jewelry, handbags, furniture, mechanical flowers, robotic devices, packaging structures, fashion accessories, and concept design sheets. Use when the user asks for line drawing, hand draft, blueprint, technical anno"
+    },
+    {
+      "name": "sa-boo-liquid-silver-style",
+      "folder": "sa-boo-liquid-silver-style",
+      "skill_md": "codex_visual_stack/skills/sa-boo-liquid-silver-style/SKILL.md",
+      "file_count": 2,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SA&BOO AI image prompt style for liquid silver metal, chrome, mercury texture, acid design, Y2K futurism, cyber luxury, high-end editorial posters, product KV, logo variants, fashion/beauty visuals, surreal flowers, and futuristic luxury imagery. Use when the user asks for silver metallic aesthetics"
+    },
+    {
+      "name": "sa-boo-macos-automation-bridge",
+      "folder": "sa-boo-macos-automation-bridge",
+      "skill_md": "codex_visual_stack/skills/sa-boo-macos-automation-bridge/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/apple-script-safe-patterns.md",
+        "references/layered-automation-architecture.md"
+      ],
+      "description": "SA&BOO macOS automation bridge standard. Use when Codex needs to automate macOS apps, Finder, SketchUp, Terminal, AppleScript, JXA, shell scripts, Python/Ruby/Node scripts, or build reliable Mac workflow glue. Hard rule: AppleScript is only a thin orchestration shell; complex logic must live in exte"
+    },
+    {
+      "name": "sa-boo-material-supplier-budget-db",
+      "folder": "sa-boo-material-supplier-budget-db",
+      "skill_md": "codex_visual_stack/skills/sa-boo-material-supplier-budget-db/SKILL.md",
+      "file_count": 18,
+      "files": [
+        "SKILL.md",
+        "references/budget-workflow.md",
+        "references/mcp-tool-reserve.md",
+        "references/database-schema.md",
+        "references/material-taxonomy.md",
+        "references/supplier-scorecard.md",
+        "references/qaqc-risk-checklist.md",
+        "agents/openai.yaml",
+        "scripts/create_database_templates.py",
+        "assets/Project_Budget.csv",
+        "assets/Materials.csv",
+        "assets/Price_History.csv",
+        "assets/Substitutions.csv",
+        "assets/Suppliers.csv",
+        "assets/Approvals.csv",
+        "assets/Procurement_Tracker.csv",
+        "assets/Dashboard.csv",
+        "assets/SA&BOO_Material_Supplier_Budget_DB_Template.xlsx"
+      ],
+      "description": "SA&BOO material, supplier, FF&E, procurement, and budget database workflow for interior design projects, covering material libraries, vendor qualification, price tracking, budget estimation, procurement status, maintenance/warranty records, substitutions, client-facing schedules, Excel/CSV/Notion/Ai"
+    },
+    {
+      "name": "sa-boo-project-intake",
+      "folder": "sa-boo-project-intake",
+      "skill_md": "codex_visual_stack/skills/sa-boo-project-intake/SKILL.md",
+      "file_count": 2,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SA&BOO client intake and project brief workflow for interior design, brand design, soft furnishing, office/commercial/residential projects, and personal IP work. Use when Codex needs to structure a new client inquiry, clarify requirements, translate scattered messages/images into a professional brie"
+    },
+    {
+      "name": "sa-boo-prompt-translator",
+      "folder": "sa-boo-prompt-translator",
+      "skill_md": "codex_visual_stack/skills/sa-boo-prompt-translator/SKILL.md",
+      "file_count": 2,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SA&BOO prompt translator for converting Chinese design intentions into structured AI image prompts for Midjourney, DALL·E, Stable Diffusion, Jimeng/即梦, Runway, and other image/video models. Use when the user asks to write, improve, translate, structure, or adapt AI prompts across styles, platforms, "
+    },
+    {
+      "name": "sa-boo-proposal-deck-director",
+      "folder": "sa-boo-proposal-deck-director",
+      "skill_md": "codex_visual_stack/skills/sa-boo-proposal-deck-director/SKILL.md",
+      "file_count": 2,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SA&BOO proposal deck director workflow for interior design, brand design, soft furnishing, office/commercial/residential design, visual identity, and client-facing presentations. Use when Codex needs to create or refine a premium proposal structure, slide-by-slide outline, chapter narrative, present"
+    },
+    {
+      "name": "sa-boo-realtime-render-presentation",
+      "folder": "sa-boo-realtime-render-presentation",
+      "skill_md": "codex_visual_stack/skills/sa-boo-realtime-render-presentation/SKILL.md",
+      "file_count": 12,
+      "files": [
+        "SKILL.md",
+        "references/lighting-standard.md",
+        "references/render-pack-scope.md",
+        "references/material-standard.md",
+        "references/tool-comparison.md",
+        "references/camera-standard.md",
+        "references/export-qaqc.md",
+        "references/before-after-standard.md",
+        "agents/openai.yaml",
+        "scripts/generate_render_pack_templates.py",
+        "assets/render_shot_log_template.csv",
+        "assets/render_qaqc_template.csv"
+      ],
+      "description": "SA&BOO real-time rendering presentation workflow for D5 Render, Enscape, Twinmotion, and similar interior visualization tools, covering quick client presentations, lighting setup, material standards, camera composition, scene states, before/after comparisons, export packs, QA, and social/proposal re"
+    },
+    {
+      "name": "sa-boo-sketchup-interior-director",
+      "folder": "sa-boo-sketchup-interior-director",
+      "skill_md": "codex_visual_stack/skills/sa-boo-sketchup-interior-director/SKILL.md",
+      "file_count": 8,
+      "files": [
+        "SKILL.md",
+        "references/image-generation-workflow.md",
+        "references/design-output-logic.md",
+        "references/visual-output-standard.md",
+        "references/integrated-production-loop.md",
+        "references/sa-boo-sketchup-master-workflow-index.md",
+        "references/sketchup-skill-router.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SA&BOO design-creativity-led SketchUp interior design director workflow for SketchUp 2025 on macOS. Use when Bonnie needs Codex to turn Chinese/English interior ideas, CAD/layout evidence, references, white models, screenshots, SketchUp/3ds/3D files, materials, lighting moods, or client goals into a"
+    },
+    {
+      "name": "sa-boo-style-mixer",
+      "folder": "sa-boo-style-mixer",
+      "skill_md": "codex_visual_stack/skills/sa-boo-style-mixer/SKILL.md",
+      "file_count": 2,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SA&BOO style mixing and style-transfer prompt skill for generating multiple aesthetic versions of the same theme across liquid silver, technical blueprint, Victorian ornament, East-West luxury, cyberpunk, Memphis, minimalism, gothic, dreamcore, acid design, and social-media cover styles. Use when th"
+    },
+    {
+      "name": "sa-boo-victorian-ornamental-line",
+      "folder": "sa-boo-victorian-ornamental-line",
+      "skill_md": "codex_visual_stack/skills/sa-boo-victorian-ornamental-line/SKILL.md",
+      "file_count": 2,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SA&BOO ornamental line-art style for Victorian, Rococo, Renaissance scrollwork, floral patterns, luxury frames, emblems, certificates, packaging ornaments, black-and-white decorative illustrations, and high-end commercial vector motifs. Use when the user asks for ornate linework, floral decorative p"
+    },
+    {
+      "name": "sa-boo-visual-asset-index",
+      "folder": "sa-boo-visual-asset-index",
+      "skill_md": "codex_visual_stack/skills/sa-boo-visual-asset-index/SKILL.md",
+      "file_count": 10,
+      "files": [
+        "SKILL.md",
+        "references/workflow.md",
+        "references/usage-in-other-skills.md",
+        "references/asset-schema.md",
+        "agents/openai.yaml",
+        "scripts/rebuild_visual_index.py",
+        "scripts/capture_visual_assets.py",
+        "scripts/ingest_local_visual_assets.py",
+        "scripts/search_visual_assets.py",
+        "assets/seed_sources.json"
+      ],
+      "description": "SA&BOO visual asset citation and local image cache workflow for design learning, trend research, material references, render references, brand kit references, and vector-like search. Use when the user asks to preserve original visual assets, avoid dead URLs, create image/reference libraries, cite so"
+    },
+    {
+      "name": "sa-boo-visual-first-core",
+      "folder": "sa-boo-visual-first-core",
+      "skill_md": "codex_visual_stack/skills/sa-boo-visual-first-core/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/visual-first-rule.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SA&BOO mandatory visual-first doctrine for every SA&BOO design, research, learning, proposal, prompt, CAD, rendering, FF&E, brand, and social-content skill. Use when Codex needs to apply the hard rule that a high-quality visual asset chain leads and text supports it. Must reject blurry, low-quality,"
+    },
+    {
+      "name": "sa-boo-visual-style-prompt-lab",
+      "folder": "sa-boo-visual-style-prompt-lab",
+      "skill_md": "codex_visual_stack/skills/sa-boo-visual-style-prompt-lab/SKILL.md",
+      "file_count": 6,
+      "files": [
+        "SKILL.md",
+        "references/style-recipes.md",
+        "references/mcp-tool-routing.md",
+        "references/prompt-operating-system.md",
+        "references/visual-style-radar-2026.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SA&BOO trend-aware text-to-image prompt laboratory for converting design intentions into controllable visual-style systems, drawing from current Canva/Adobe/Figma/Pinterest-like visual trends, SA&BOO prompt skills, and available image/Figma/Canva-style MCP routes. Use when the user asks to strengthe"
+    },
+    {
+      "name": "sa-boo-xiaohongshu-ip",
+      "folder": "sa-boo-xiaohongshu-ip",
+      "skill_md": "codex_visual_stack/skills/sa-boo-xiaohongshu-ip/SKILL.md",
+      "file_count": 2,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SA&BOO Bonnie personal IP and Chinese social media content skill for Xiaohongshu, WeChat Channels, short-video scripts, aesthetic education, color/design sharing, travel/lifestyle posts, cover prompts, titles, topic planning, and conversion-oriented personal branding. Use when the user asks for new "
+    },
+    {
+      "name": "scene-explorer",
+      "folder": "scene-explorer",
+      "skill_md": "codex_visual_stack/skills/scene-explorer/SKILL.md",
+      "file_count": 2,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "description": "Explore business, service, customer, retail, and point-of-sale scenes that place a product, venue, service, or offer inside realistic commercial contexts. Use when the user wants scene prompts, product-in-environment exploration, service moments, consumer decision contexts, or reusable scene librari"
+    },
+    {
+      "name": "shot-explorer",
+      "folder": "shot-explorer",
+      "skill_md": "codex_visual_stack/skills/shot-explorer/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "scripts/create_shot_explorer.py"
+      ],
+      "description": "Explore selected-count camera-angle, crop, zoom, and macro-detail variants from an uploaded image. Use when the user wants a Shot Explorer, product shot variants, alternate views, closeups, pan/zoom exploration, or camera/composition options before polish."
+    },
+    {
+      "name": "sketchup-1001bit-architectural-tools",
+      "folder": "sketchup-1001bit-architectural-tools",
+      "skill_md": "codex_visual_stack/skills/sketchup-1001bit-architectural-tools/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/1001bit-workflow.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp 1001bit Tools Freeware 1.0.5 workflow for SketchUp 2025 architectural and interior hard-modeling utilities. Use when Codex needs to plan, prepare, audit, or guide fast white-model and hardscape generation such as walls, openings, door/window frames, stairs, spiral stairs, escalator-like ste"
+    },
+    {
+      "name": "sketchup-advanced-camera-tools",
+      "folder": "sketchup-advanced-camera-tools",
+      "skill_md": "codex_visual_stack/skills/sketchup-advanced-camera-tools/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/advanced-camera-tools-workflow.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp Advanced Camera Tools 1.3.4 workflow for SketchUp 2025 physical camera planning, cinematographic composition, focal length/aspect-ratio control, safe zones, camera frustums, camera locking, look-through views, interior render shot lists, white-model-to-AI-render source cameras, and consiste"
+    },
+    {
+      "name": "sketchup-ai-render-workflow",
+      "folder": "sketchup-ai-render-workflow",
+      "skill_md": "codex_visual_stack/skills/sketchup-ai-render-workflow/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/ai-render-2026-06-03.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp AI Render / SketchUp Diffusion workflow for SketchUp 2025 interior design. Use when Codex needs to plan, prepare, prompt, audit, or guide AI Render outputs from SketchUp scenes, including white-model-to-material concept renders, prompt/negative-prompt writing, geometry-vs-prompt influence s"
+    },
+    {
+      "name": "sketchup-architextures-materials",
+      "folder": "sketchup-architextures-materials",
+      "skill_md": "codex_visual_stack/skills/sketchup-architextures-materials/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/architextures-workflow.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp Architextures 1.1.2254 workflow for SketchUp 2025 seamless material generation and hard-finish texture setup. Use when Codex needs to plan, prepare, audit, or guide creating, importing, editing, scaling, and organizing seamless textures for tiles, wood flooring, stone slabs, brick, terrazzo"
+    },
+    {
+      "name": "sketchup-artisan-organic-modeling",
+      "folder": "sketchup-artisan-organic-modeling",
+      "skill_md": "codex_visual_stack/skills/sketchup-artisan-organic-modeling/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/artisan-2.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp Artisan 2 workflow for organic and subdivision modeling in SketchUp 2025. Use when Codex needs to plan, prepare, audit, or guide soft/curved/interpolated geometry such as sofas, cushions, curved furniture, sculptural walls, organic partitions, irregular decor objects, terrain-like forms, sm"
+    },
+    {
+      "name": "sketchup-color-maker-palettes",
+      "folder": "sketchup-color-maker-palettes",
+      "skill_md": "codex_visual_stack/skills/sketchup-color-maker-palettes/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/colormaker-workflow.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp DBUR ColorMaker 1.0.0/1.0.1 workflow for SketchUp 2025 standard color material creation, RAL/NCS/Pantone/PMS/Munsell/Resene/Web/X11/AutoCAD/Bootstrap/HTML-SU/Color-temperature palettes, wall paint color studies, brand-color translation, soft-furnishing color schemes, white-model coloring, a"
+    },
+    {
+      "name": "sketchup-curic-align-view",
+      "folder": "sketchup-curic-align-view",
+      "skill_md": "codex_visual_stack/skills/sketchup-curic-align-view/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/curic-align-view-workflow.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp Curic Align View 1.2.1 workflow for SketchUp 2025 camera, elevation, section, and presentation view alignment. Use when Codex needs to plan, prepare, audit, or guide aligned views from faces/edges/objects, orthographic elevation-like scenes, interior wall elevations, cabinet/front views, ma"
+    },
+    {
+      "name": "sketchup-dbs-move-rotate-open-close",
+      "folder": "sketchup-dbs-move-rotate-open-close",
+      "skill_md": "codex_visual_stack/skills/sketchup-dbs-move-rotate-open-close/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/dbs-open-close-workflow.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp DBS Move Rotate Open Close 3.10 workflow for SketchUp 2025 movable furniture and interior component interaction. Use when Codex needs to plan, prepare, audit, or guide configuring open/close states, move/rotate joints, cabinet doors, wardrobe doors, drawers, sliding doors, hinged room doors"
+    },
+    {
+      "name": "sketchup-edge-tools-cleanup",
+      "folder": "sketchup-edge-tools-cleanup",
+      "skill_md": "codex_visual_stack/skills/sketchup-edge-tools-cleanup/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/edge-tools-2-workflow.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp Edge Tools² 2.2.0 workflow for SketchUp 2025 model cleanup and edge repair. Use when Codex needs to plan, prepare, audit, or guide fixing broken imported CAD/DWG linework, closing edge gaps, finding open vertices, erasing stray curves, simplifying curves, making vertices co-linear, dividing"
+    },
+    {
+      "name": "sketchup-enscape-render-workflow",
+      "folder": "sketchup-enscape-render-workflow",
+      "skill_md": "codex_visual_stack/skills/sketchup-enscape-render-workflow/SKILL.md",
+      "file_count": 2,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp Enscape 4.16+/4.18 Mac workflow for SketchUp 2025 interior rendering. Use when Codex needs to plan, prepare, audit, or guide Enscape real-time rendering from SketchUp 2025 on Bonnie's Mac Studio, including white-model-to-material render passes, camera/lighting/material setup, Asset Library/"
+    },
+    {
+      "name": "sketchup-flatten-faces-cleanup",
+      "folder": "sketchup-flatten-faces-cleanup",
+      "skill_md": "codex_visual_stack/skills/sketchup-flatten-faces-cleanup/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/flatten-faces-workflow.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp Unwrap and Flatten Faces 2.6 workflow for SketchUp 2025 cleanup, panel flattening, and surface preparation. Use when Codex needs to plan, prepare, audit, or guide flattening selected SketchUp faces, unwrapping non-coplanar faces, smashing/projecting geometry to X/Y/Z planes, preparing CAD/i"
+    },
+    {
+      "name": "sketchup-floor-panel-grid",
+      "folder": "sketchup-floor-panel-grid",
+      "skill_md": "codex_visual_stack/skills/sketchup-floor-panel-grid/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/floor-panel-grid-workflow.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp Floor Generator / MyPanelGrid 1.0.0 workflow for SketchUp 2025 floor, wall, ceiling, stone, wood, tile, acoustic, and decorative panel grid generation. Use when Codex needs to plan, prepare, audit, or guide creating regular panel arrays on a selected SketchUp face with panel width, height, "
+    },
+    {
+      "name": "sketchup-lightup-lighting",
+      "folder": "sketchup-lightup-lighting",
+      "skill_md": "codex_visual_stack/skills/sketchup-lightup-lighting/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/lightup-workflow.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp LightUp Demo 7.5.f workflow for SketchUp 2025 realtime lighting, soft lighting previews, daylight and sky-factor checks, IES light testing, point lights, light meters, illumination diagnostics, realtime flythroughs, and render-prep QA for interior design. Use when Codex needs to plan, prepa"
+    },
+    {
+      "name": "sketchup-material-replacer",
+      "folder": "sketchup-material-replacer",
+      "skill_md": "codex_visual_stack/skills/sketchup-material-replacer/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/material-replacer-workflow.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp TT Material Replacer 1.3.0 workflow for SketchUp 2025 batch material replacement, material cleanup, scheme A/B swaps, replacing default or wrong imported materials, render-prep material standardization, white-model-to-finish material iteration, and model-wide front/back material replacement"
+    },
+    {
+      "name": "sketchup-profile-builder",
+      "folder": "sketchup-profile-builder",
+      "skill_md": "codex_visual_stack/skills/sketchup-profile-builder/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/profile-builder-4.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp Profile Builder 4 workflow for interior design modeling in SketchUp 2025 via SketchUp MCP or manual SketchUp guidance. Use when Codex needs to create, plan, audit, or guide reusable profile/assembly geometry such as skirting boards, trim, mouldings, wall panels, door/window frames, cabinet "
+    },
+    {
+      "name": "sketchup-s4u-slice-section-cuts",
+      "folder": "sketchup-s4u-slice-section-cuts",
+      "skill_md": "codex_visual_stack/skills/sketchup-s4u-slice-section-cuts/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/s4u-slice-workflow.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp s4u Slice 5.2.2 workflow for SketchUp 2025 slicing, cutting, detaching, group sections, section-cut geometry, exploded details, construction slices, cutaway views, model analysis, and interior detail presentation. Use when Codex needs to plan, prepare, audit, or guide cutting objects by pla"
+    },
+    {
+      "name": "sketchup-selection-toys-selection-control",
+      "folder": "sketchup-selection-toys-selection-control",
+      "skill_md": "codex_visual_stack/skills/sketchup-selection-toys-selection-control/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/selection-toys-workflow.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp Selection Toys 2.4.0 workflow for SketchUp 2025 selection filtering and selection manipulation. Use when Codex needs to plan, prepare, audit, or guide advanced selection tasks in SketchUp such as selecting only edges/faces/groups/components, deselecting entity types, selecting hidden/soft/s"
+    },
+    {
+      "name": "sketchup-skatter-scattering",
+      "folder": "sketchup-skatter-scattering",
+      "skill_md": "codex_visual_stack/skills/sketchup-skatter-scattering/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/skatter-2-workflow.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp Skatter 2 workflow for SketchUp 2025 interior, landscape, and visualization scattering. Use when Codex needs to plan, prepare, audit, or guide Skatter compositions for grass, plants, trees, gravel, carpet fibers, fabric fuzz, books, decor, people/crowds, facade modules, ceiling features, pa"
+    },
+    {
+      "name": "sketchup-sketchyffd-deformation",
+      "folder": "sketchup-sketchyffd-deformation",
+      "skill_md": "codex_visual_stack/skills/sketchup-sketchyffd-deformation/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/sketchyffd-workflow.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp SketchyFFD Classic V7/V7.1 workflow for SketchUp 2025 free-form deformation, control-cage editing, lattice/cage-based mesh manipulation, curved walls, soft furniture massing, sculptural interior forms, organic panels, bent grids, warped white-model blocks, and concept-stage shape exploratio"
+    },
+    {
+      "name": "sketchup-soap-skin-bubble-surfaces",
+      "folder": "sketchup-soap-skin-bubble-surfaces",
+      "skill_md": "codex_visual_stack/skills/sketchup-soap-skin-bubble-surfaces/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/soap-skin-bubble-workflow.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp Soap Skin Bubble 1.0.36 workflow for SketchUp 2025 membrane, tensile, soap-skin, bubble, canopy, smooth surface, soft curved panel, dome, sail, cushion-like, and organic surface generation. Use when Codex needs to plan, prepare, audit, or guide creating surfaces from boundary curves/edges, "
+    },
+    {
+      "name": "sketchup-solid-inspector-repair",
+      "folder": "sketchup-solid-inspector-repair",
+      "skill_md": "codex_visual_stack/skills/sketchup-solid-inspector-repair/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/solid-inspector-workflow.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp Solid Inspector and Solid Inspector² workflow for SketchUp 2025 solid/manifold geometry diagnosis and repair. Use when Codex needs to plan, prepare, audit, or guide fixing non-solid groups/components, boolean failures, 3D-print/export STL problems, Profile Builder/Artisan/Skatter host issue"
+    },
+    {
+      "name": "sketchup-space-finder-planning",
+      "folder": "sketchup-space-finder-planning",
+      "skill_md": "codex_visual_stack/skills/sketchup-space-finder-planning/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/space-finder-workflow.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp Space Finder workflow for SketchUp 2025 space, room, floor-area, and planning analysis. Use when Codex needs to plan, prepare, audit, or guide identifying spaces in SketchUp models, generating room/area overlays, checking apartment/residential/commercial zones, comparing floor plan options,"
+    },
+    {
+      "name": "sketchup-stl-import-export",
+      "folder": "sketchup-stl-import-export",
+      "skill_md": "codex_visual_stack/skills/sketchup-stl-import-export/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/stl-workflow.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp STL Import & Export 2.2.0 workflow for SketchUp 2025 mesh exchange, product models, and 3D printing. Use when Codex needs to plan, prepare, audit, or guide importing STL meshes into SketchUp, exporting SketchUp groups/components as STL, checking units and scale, repairing solids before STL "
+    },
+    {
+      "name": "sketchup-texture-positioning",
+      "folder": "sketchup-texture-positioning",
+      "skill_md": "codex_visual_stack/skills/sketchup-texture-positioning/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/texture-positioning-workflow.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp Eneroth Texture Positioning Tools 1.0.3 workflow for SketchUp 2025 texture/UV alignment, rotating textures 90° or custom angles, aligning textures to face edges or a selected edge, depatternizing repeated textures, and render-prep QA for wood grain, stone slabs, tile, brick, wallpaper, fabr"
+    },
+    {
+      "name": "sketchup-truebend-bending",
+      "folder": "sketchup-truebend-bending",
+      "skill_md": "codex_visual_stack/skills/sketchup-truebend-bending/SKILL.md",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "references/truebend-workflow.md",
+        "agents/openai.yaml"
+      ],
+      "description": "SketchUp True Bend 1.2.1 workflow for SketchUp 2025 precise length-preserving bending of groups/components. Use when Codex needs to plan, prepare, audit, or guide bending linear interior objects such as trims, mouldings, slats, wall panels, curved counters, arches, railings, cabinet details, furnitu"
+    }
+  ]
+}

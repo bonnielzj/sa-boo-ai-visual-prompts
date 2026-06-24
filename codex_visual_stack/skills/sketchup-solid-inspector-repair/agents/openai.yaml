@@ -1,0 +1,6 @@
+interface:
+  display_name: "SketchUp Solid Inspector Repair"
+  short_description: "Inspect and repair SketchUp solid geometry"
+  default_prompt: "Use $sketchup-solid-inspector-repair to diagnose and repair non-solid SketchUp geometry before boolean/export work."
+policy:
+  allow_implicit_invocation: true

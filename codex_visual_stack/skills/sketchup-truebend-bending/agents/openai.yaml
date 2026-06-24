@@ -1,0 +1,4 @@
+interface:
+  display_name: "SketchUp TrueBend"
+  short_description: "Plan precise length-preserving bends in SketchUp 2025."
+  default_prompt: "Use SketchUp TrueBend to plan a precise bend workflow for the selected interior object."

@@ -1,0 +1,4 @@
+﻿Metric,Value,Notes
+Total Estimated,=SUM(Project_Budget!R:R),formula in XLSX
+Total Quoted,=SUM(Project_Budget!S:S),formula in XLSX
+Total Approved,=SUM(Project_Budget!T:T),formula in XLSX

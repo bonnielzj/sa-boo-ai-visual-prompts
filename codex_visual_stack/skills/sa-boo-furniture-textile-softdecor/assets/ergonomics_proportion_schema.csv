@@ -1,0 +1,12 @@
+field,description,example
+rule_id,Stable ID,ERGO-ADA-001
+category,ergonomics/proportion/accessibility/classical/grid,accessibility
+use_case,Where to apply,clear floor space at accessible element
+rule_or_anchor,Dimension/proportion/check,30x48 in minimum
+metric_value,Metric equivalent if applicable,760x1220 mm
+source_type,code/official/research/classical/heuristic,official accessibility guide
+source_url,Source URL,https://www.access-board.gov/ada/guides/chapter-3-clear-floor-or-ground-space-and-turning-space/
+confidence,verified/needs-local-code-check/heuristic,verified but local code must be checked
+cad_su_application,How it affects CAD/SU,draw clearance rectangle on NPLT-GUIDE and check clashes
+quality_note,SA&BOO interpretation,minimum compliance not luxury comfort
+updated_at,Last update date,2026-06-24

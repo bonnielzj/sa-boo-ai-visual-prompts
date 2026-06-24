@@ -1,0 +1,4 @@
+interface:
+  display_name: "SA&BOO Xiaohongshu IP"
+  short_description: "Bonnie personal IP, design content and cover prompts."
+  default_prompt: "Use SA&BOO Xiaohongshu IP to create a post plan about [topic]."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SA&BOO Victorian Ornament"
+  short_description: "Victorian, Rococo and floral ornamental line prompts."
+  default_prompt: "Use SA&BOO Victorian Ornamental Line to create a luxury decorative pattern for [subject]."

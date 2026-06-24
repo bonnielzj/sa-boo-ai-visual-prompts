@@ -1,0 +1,4 @@
+interface:
+  display_name: "SketchUp s4u Slice"
+  short_description: "Precise section cutting and slicing."
+  default_prompt: "Use $sketchup-s4u-slice-section-cuts to plan a SketchUp slicing, section-cut, detach, or exploded-detail workflow."

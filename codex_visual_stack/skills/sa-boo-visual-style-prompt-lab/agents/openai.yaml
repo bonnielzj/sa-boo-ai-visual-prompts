@@ -1,0 +1,4 @@
+interface:
+  display_name: "SA&BOO Visual Style Prompt Lab"
+  short_description: "Trend-aware prompt systems for SA&BOO visuals."
+  default_prompt: "Use $sa-boo-visual-style-prompt-lab to convert my visual idea into trend-aware text-to-image prompts with variables, negative prompts, and tool/MCP routing."

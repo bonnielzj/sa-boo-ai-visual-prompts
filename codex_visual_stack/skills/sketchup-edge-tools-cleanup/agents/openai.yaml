@@ -1,0 +1,6 @@
+interface:
+  display_name: "SketchUp Edge Tools Cleanup"
+  short_description: "Edge Tools² gap repair and curve cleanup"
+  default_prompt: "Use $sketchup-edge-tools-cleanup to plan edge-gap repair and curve cleanup for my SketchUp model."
+policy:
+  allow_implicit_invocation: true

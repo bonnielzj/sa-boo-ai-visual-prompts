@@ -1,0 +1,4 @@
+interface:
+  display_name: "SA&BOO Brand Director"
+  short_description: "Brand strategy, logo, VI and creative direction prompts."
+  default_prompt: "Use SA&BOO Brand Director to build a brand visual system for [project]."
