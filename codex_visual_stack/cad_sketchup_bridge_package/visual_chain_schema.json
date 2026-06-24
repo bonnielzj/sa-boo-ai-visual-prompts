@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SA&BOO CAD SketchUp Bridge Visual Chain",
+  "type": "object",
+  "required": [
+    "project",
+    "revision",
+    "assets"
+  ],
+  "properties": {
+    "project": {
+      "type": "string"
+    },
+    "revision": {
+      "type": "string",
+      "pattern": "^R[0-9]+"
+    },
+    "gate": {
+      "type": "string",
+      "enum": [
+        "B00",
+        "A01",
+        "SU01",
+        "SU02",
+        "M01",
+        "R01",
+        "ISSUE"
+      ]
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "asset_id",
+          "asset_type",
+          "source_file_path",
+          "quality_status"
+        ],
+        "properties": {
+          "asset_id": {
+            "type": "string"
+          },
+          "asset_type": {
+            "type": "string"
+          },
+          "source_file_path": {
+            "type": "string"
+          },
+          "source_model_path": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_cad_path": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "capture_date": {
+            "type": "string"
+          },
+          "gate": {
+            "type": "string"
+          },
+          "quality_status": {
+            "type": "string",
+            "enum": [
+              "accepted",
+              "rejected",
+              "needs_recapture"
+            ]
+          },
+          "scale_status": {
+            "type": "string",
+            "enum": [
+              "confirmed",
+              "conflict",
+              "unknown",
+              "not_applicable"
+            ]
+          },
+          "qa_notes": {
+            "type": "string"
+          },
+          "prev_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "next_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "related_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "rights_status": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

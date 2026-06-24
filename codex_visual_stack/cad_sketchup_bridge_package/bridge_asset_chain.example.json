@@ -1,0 +1,60 @@
+{
+  "project": "logicat_popup_su",
+  "revision": "R16",
+  "gate": "SU01",
+  "summary": "CAD layout can align to 8000 × 9000 mm after isolating oversized hidden CAD reference.",
+  "assets": [
+    {
+      "asset_id": "logicat_r16_top_plan_scale_clean",
+      "asset_type": "top_plan_screenshot",
+      "source_file_path": "codex_visual_stack/project_examples/logicat_r16/R16_QA_03_top_plan_cad_scale_clean_helpers_hidden.png",
+      "source_model_path": "03_SketchUp_Model/R16_scale_clean.skp",
+      "source_cad_path": "02_CAD_Clean_For_SU/logicat_SU_IMPORT_CLEAN_R16.dwg",
+      "capture_date": "2026-06-24",
+      "gate": "SU01",
+      "quality_status": "accepted",
+      "scale_status": "confirmed",
+      "qa_notes": "Readable top plan; CAD scale relationship usable after hidden oversized reference is removed or isolated.",
+      "prev_id": null,
+      "next_id": "logicat_r16_outlier_overlap_qa",
+      "related_ids": [
+        "logicat_r16_cad_ref_line_qa"
+      ],
+      "rights_status": "project_internal"
+    },
+    {
+      "asset_id": "logicat_r16_outlier_overlap_qa",
+      "asset_type": "qa_report",
+      "source_file_path": "codex_visual_stack/project_examples/logicat_r16/R16_model_outlier_overlap_QA.md",
+      "source_model_path": "03_SketchUp_Model/R16_scale_clean.skp",
+      "source_cad_path": null,
+      "capture_date": "2026-06-24",
+      "gate": "SU01",
+      "quality_status": "accepted",
+      "scale_status": "confirmed",
+      "qa_notes": "Outlier/overlap QA report anchors model cleanup before rendering.",
+      "prev_id": "logicat_r16_top_plan_scale_clean",
+      "next_id": "logicat_r16_cad_ref_line_qa",
+      "related_ids": [],
+      "rights_status": "project_internal"
+    },
+    {
+      "asset_id": "logicat_r16_cad_ref_line_qa",
+      "asset_type": "qa_report",
+      "source_file_path": "codex_visual_stack/project_examples/logicat_r16/R16_cad_ref_line_QA.md",
+      "source_model_path": "03_SketchUp_Model/R16_scale_clean.skp",
+      "source_cad_path": "02_CAD_Clean_For_SU/logicat_SU_IMPORT_CLEAN_R16.dwg",
+      "capture_date": "2026-06-24",
+      "gate": "SU01",
+      "quality_status": "accepted",
+      "scale_status": "confirmed",
+      "qa_notes": "Identifies locked imported CAD reference issue before Enscape/AI Render/imagegen.",
+      "prev_id": "logicat_r16_outlier_overlap_qa",
+      "next_id": null,
+      "related_ids": [
+        "logicat_r16_top_plan_scale_clean"
+      ],
+      "rights_status": "project_internal"
+    }
+  ]
+}
