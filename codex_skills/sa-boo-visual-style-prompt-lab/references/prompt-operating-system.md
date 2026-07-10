@@ -45,7 +45,7 @@ Create a {channel/use} visual of {subject}, built around {visual metaphor}. Use 
 
 ## 3. Platform adapters
 
-### DALL·E / gpt-image / built-in imagegen
+### WE-AI AZ CLI/API image route (`gpt-image-2`)
 
 - Use natural language with clear constraints.
 - Keep prompt coherent; avoid huge keyword dumps.
