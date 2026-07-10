@@ -10,9 +10,13 @@ Checked skill:
 
 - `/Users/bonnie/.codex/skills/.system/imagegen/SKILL.md`
 
+## Historical Note
+
+This note records an earlier stage before Bonnie switched image generation to CLI/API-only AZ routing.
+
 ## Finding
 
-The skill already had the correct high-level routing:
+At that earlier stage, the skill had the following high-level routing:
 
 - use built-in `image_gen` by default
 - use CLI fallback only when explicitly requested, or after explicit confirmation for true native transparency
@@ -42,9 +46,18 @@ Added rules:
 - if the retry fails, stop and offer retrying later or explicit CLI fallback
 - do not run save-path, chroma-key removal, or validation steps until an actual built-in image file exists
 
+## Superseded Status
+
+This note is superseded by later routing decisions:
+
+- `/Users/bonnie/Documents/乖乖成长日志/persistent_notes/imagegen_weai_az_route_20260710.md`
+- `/Users/bonnie/Documents/乖乖成长日志/persistent_notes/imagegen_cli_only_policy_20260710.md`
+
+Current Bonnie policy is CLI/API-only on the WE-AI AZ route, not built-in-first.
+
 ## Practical Handling Going Forward
 
-When built-in `image_gen` returns `502 Bad Gateway`, the correct response is:
+For historical reference, when built-in `image_gen` returned `502 Bad Gateway`, the correct response was:
 
 1. Tell Bonnie it is usually a temporary image backend/server issue.
 2. Do not claim that the prompt, transparent-background setup, local path, or API key caused it.

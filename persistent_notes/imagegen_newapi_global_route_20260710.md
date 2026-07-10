@@ -2,6 +2,10 @@
 
 Date: 2026-07-10
 
+## Historical Note
+
+This note records an earlier global image route before the later WE-AI AZ route and CLI-only policy replaced it.
+
 ## Context
 
 Bonnie asked Codex global image generation to use the NewAPI-compatible image channel at:
@@ -13,6 +17,20 @@ Bonnie asked Codex global image generation to use the NewAPI-compatible image ch
 - Forbidden wire API for image work: `responses`
 
 The user-provided raw API key must not be written into project files, notes, final replies, or shared documentation.
+
+## Superseded Status
+
+This note is superseded by:
+
+- `/Users/bonnie/Documents/乖乖成长日志/persistent_notes/imagegen_weai_az_route_20260710.md`
+- `/Users/bonnie/Documents/乖乖成长日志/persistent_notes/imagegen_cli_only_policy_20260710.md`
+
+Current Bonnie policy is:
+
+- route: WE-AI AZ full image route
+- `BASE_URL=https://asian-acc.we-token.cc`
+- `OPENAI_BASE_URL=https://asian-acc.we-token.cc/v1`
+- CLI/API-only for image generation
 
 ## Local Private Files Updated
 

@@ -4,14 +4,15 @@ Use this when the user asks which MCP, plugin, or tool should handle a visual ta
 
 ## Current usable routes in this Codex environment
 
-### Built-in image generation (`imagegen` skill + `image_gen` tool)
+### Image generation (`imagegen` skill + WE-AI AZ CLI/API route)
 
 Use for: bitmap concept images, product shots, social visuals, raster mockups, edits, style variants.
 
 Route:
-`brief → prompt operating system → image_gen → inspect/iterate → save final asset if project-bound`
+`brief → prompt operating system → scripts/image_gen.py → inspect/iterate → save final asset if project-bound`
 
 Notes:
+- In Bonnie's environment, do not use the built-in `image_gen` route; use the configured WE-AI AZ CLI/API route.
 - For transparent assets, use chroma-key removal first unless true native transparency is explicitly confirmed.
 - For exact text, generate background/visual separately and set typography in Figma/Canva/PPT.
 
@@ -69,7 +70,7 @@ Figma frames MCP as design-context for coding/design workflows: component metada
 
 | Goal | Best route | Why |
 |---|---|---|
-| Visual concept image | imagegen | Fast bitmap exploration |
+| Visual concept image | imagegen (CLI/API) | Fast bitmap exploration on the active AZ route |
 | Exact typography social cover | imagegen background + Figma/Canva layout | Models often distort text |
 | Brand kit / reusable templates | Figma or Canva MCP if connected | Tokens, layouts, exports |
 | Proposal deck | presentations/pdf + Figma assets | Client-ready structure |
