@@ -1,0 +1,4 @@
+interface:
+  display_name: "中文字形与图形字标设计"
+  short_description: "从参考的笔画、负形与组合机制出发，设计原创中文字标并验证可编辑矢量"
+  default_prompt: "Use $chinese-lettering-design to study my references and create original Chinese lettering for the specified product."

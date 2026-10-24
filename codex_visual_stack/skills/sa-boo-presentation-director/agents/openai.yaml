@@ -1,0 +1,4 @@
+interface:
+  display_name: "SA&BOO Presentation Director"
+  short_description: "Direct slide story, layout, tool routing, and QA."
+  default_prompt: "Create or improve this presentation using the SA&BOO presentation workflow."

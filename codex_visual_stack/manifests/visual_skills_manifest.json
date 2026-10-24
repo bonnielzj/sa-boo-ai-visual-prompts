@@ -1,6 +1,6 @@
 {
   "created_at": "2026-06-24T23:25:47",
-  "count": 72,
+  "count": 79,
   "skills": [
     {
       "name": "ads-explorer",
@@ -38,6 +38,26 @@
         "scripts/quickstart.ps1"
       ],
       "description": "Query DWG/DXF CAD drawings semantically from Copilot Chat using the cadq CLI and MCP server. USE WHEN the user asks spatial or semantic questions about a CAD drawing — \"highest point\", \"where is the driveway\", \"how big is the lawn or garden\", \"boundary of the building\", \"how many trees\", \"what's nea"
+    },
+    {
+      "name": "chinese-lettering-design",
+      "folder": "chinese-lettering-design",
+      "skill_md": "codex_visual_stack/skills/chinese-lettering-design/SKILL.md",
+      "file_count": 11,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "references/case-study-star.md",
+        "references/figma-and-vector-workflow.md",
+        "references/lettering-method.md",
+        "references/local-helpers.md",
+        "references/open-source-research.md",
+        "references/reference-atlas.md",
+        "references/tools-and-mcp.md",
+        "scripts/outline_text.py",
+        "scripts/preflight_svg.py"
+      ],
+      "description": "Design original Chinese display lettering and graphic wordmarks from visual references, including metaphor, connected strokes, distortion, static motion, and merchandise applications. Use for 中文字形设计、艺术字、图形字标 and custom lyric lettering; ordinary text layout alone does not need this skill."
     },
     {
       "name": "documents",
@@ -514,12 +534,43 @@
       "name": "sa-boo-brand-director",
       "folder": "sa-boo-brand-director",
       "skill_md": "codex_visual_stack/skills/sa-boo-brand-director/SKILL.md",
-      "file_count": 2,
+      "file_count": 3,
       "files": [
         "SKILL.md",
-        "agents/openai.yaml"
+        "agents/openai.yaml",
+        "references/identity-tool-handoffs.md"
       ],
-      "description": "SA&BOO brand creative director workflow for brand strategy, personal brand systems, logo/core-symbol development, visual identity systems, design methodology, creative direction, brand proposal language, and AI prompt framing. Use when the user asks to build or analyze a brand, develop logo/VI/visua"
+      "description": "Use when directing brand strategy, logo/VI, or identity. Owns brand thesis, visual territories, identity rules, approval status, and editable master-artwork briefs; routes manuals, retail, current research, references, assets, and production without taking over their owners."
+    },
+    {
+      "name": "sa-boo-brand-manual-director",
+      "folder": "sa-boo-brand-manual-director",
+      "skill_md": "codex_visual_stack/skills/sa-boo-brand-manual-director/SKILL.md",
+      "file_count": 21,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "references/adobe-production.md",
+        "references/companion-skill-routing.md",
+        "references/digital-and-publishing-handoffs.md",
+        "references/qa-and-release.md",
+        "references/runtime-and-maintenance.md",
+        "references/startup-qa-and-config.md",
+        "references/style-adaptation.md",
+        "references/workflow-and-gates.md",
+        "scripts/build_release_manifest.py",
+        "scripts/check_editorial_pages.py",
+        "scripts/illustrator_identity_audit.jsx",
+        "scripts/indesign_preflight_report.jsx",
+        "scripts/indesign_template_audit.jsx",
+        "scripts/init_brand_manual_project.py",
+        "scripts/register_local_assets.py",
+        "scripts/render_manual_review.py",
+        "scripts/render_pdf_pages.m",
+        "scripts/test_brand_manual_tools.py",
+        "scripts/validate_brand_manual_project.py"
+      ],
+      "description": "Use when building or releasing an editable brand manual. Separates source authority, brand-system gaps, editorial style, production, and QA; conditionally routes research, curation, social/IP, and spatial co-design without duplicating ownership."
     },
     {
       "name": "sa-boo-cad-sketchup-bridge",
@@ -681,6 +732,73 @@
       "description": "SA&BOO material, supplier, FF&E, procurement, and budget database workflow for interior design projects, covering material libraries, vendor qualification, price tracking, budget estimation, procurement status, maintenance/warranty records, substitutions, client-facing schedules, Excel/CSV/Notion/Ai"
     },
     {
+      "name": "sa-boo-poster-graphic-design-director",
+      "folder": "sa-boo-poster-graphic-design-director",
+      "skill_md": "codex_visual_stack/skills/sa-boo-poster-graphic-design-director/SKILL.md",
+      "file_count": 12,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "references/creative-qa.md",
+        "references/deliberate-practice-loop.md",
+        "references/editable-master-layer-contract.md",
+        "references/font-pairing-comparison.md",
+        "references/format-adaptation-and-safe-zones.md",
+        "references/material-emotion-registers.md",
+        "references/source-authority-and-brand-role-contract.md",
+        "references/typography-as-image.md",
+        "references/visual-mechanisms.md",
+        "templates/composition-study-card.md"
+      ],
+      "description": "Use for designing or refining a standalone poster or KV when the communication premise is already clear, including expressive typography, composition, color, image, and format adaptation. Use the Campaign Director only when campaign strategy or multi-channel territory is unresolved."
+    },
+    {
+      "name": "sa-boo-premium-reference-curator",
+      "folder": "sa-boo-premium-reference-curator",
+      "skill_md": "codex_visual_stack/skills/sa-boo-premium-reference-curator/SKILL.md",
+      "file_count": 8,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "references/aesthetic-learning-loop.md",
+        "references/baseline-source-map.md",
+        "references/corpus-pattern-synthesis.md",
+        "scripts/audit_reference_library.py",
+        "scripts/build_contact_sheet.py",
+        "scripts/test_audit_reference_library.py"
+      ],
+      "description": "Use when Bonnie asks to collect, shortlist, compare, or build a reusable set of high-quality visual references. Do not use when she already supplied a clear reference, when one direct visual edit is requested, or merely because a task involves design."
+    },
+    {
+      "name": "sa-boo-presentation-director",
+      "folder": "sa-boo-presentation-director",
+      "skill_md": "codex_visual_stack/skills/sa-boo-presentation-director/SKILL.md",
+      "file_count": 7,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "references/editorial-direction.md",
+        "references/layout-and-qa.md",
+        "references/proposal-deck-mode.md",
+        "references/tool-and-mcp-routing.md",
+        "scripts/check_slide_plan.py"
+      ],
+      "description": "Use for authoring or substantially redesigning an SA&BOO presentation/PPTX. Do not use for a one-line copy edit, one local slide correction, or final-delivery QA alone."
+    },
+    {
+      "name": "sa-boo-print-production-preflight",
+      "folder": "sa-boo-print-production-preflight",
+      "skill_md": "codex_visual_stack/skills/sa-boo-print-production-preflight/SKILL.md",
+      "file_count": 4,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "references/large-format-print-standards.md",
+        "scripts/preflight_image.py"
+      ],
+      "description": "SA&BOO large-format print production preflight for hoardings, murals, signage, retail graphics, wall wraps, banners, and vendor handoff packages. Use when Hermes needs to turn approved visual concepts into printable artwork, check image/PDF physical size, DPI, ratio, bleed, panel splits, source-image lock, CAD-vs-hero-size conflicts, or create/review print deliverables before giving files to a printer."
+    },
+    {
       "name": "sa-boo-project-intake",
       "folder": "sa-boo-project-intake",
       "skill_md": "codex_visual_stack/skills/sa-boo-project-intake/SKILL.md",
@@ -777,20 +895,21 @@
       "name": "sa-boo-visual-asset-index",
       "folder": "sa-boo-visual-asset-index",
       "skill_md": "codex_visual_stack/skills/sa-boo-visual-asset-index/SKILL.md",
-      "file_count": 10,
+      "file_count": 11,
       "files": [
         "SKILL.md",
-        "references/workflow.md",
-        "references/usage-in-other-skills.md",
-        "references/asset-schema.md",
         "agents/openai.yaml",
-        "scripts/rebuild_visual_index.py",
+        "assets/seed_sources.json",
+        "references/asset-schema.md",
+        "references/usage-in-other-skills.md",
+        "references/workflow.md",
+        "scripts/analyze_visual_corpus.py",
         "scripts/capture_visual_assets.py",
         "scripts/ingest_local_visual_assets.py",
-        "scripts/search_visual_assets.py",
-        "assets/seed_sources.json"
+        "scripts/rebuild_visual_index.py",
+        "scripts/search_visual_assets.py"
       ],
-      "description": "SA&BOO visual asset citation and local image cache workflow for design learning, trend research, material references, render references, brand kit references, and vector-like search. Use when the user asks to preserve original visual assets, avoid dead URLs, create image/reference libraries, cite so"
+      "description": "SA&BOO visual asset citation and local image-cache workflow. Use only when the user asks to preserve or cite source visuals, avoid dead URLs, create a reusable image/reference library, build a moodboard index, or create a searchable visual asset chain. Do not use for a supplied reference, a clear visual edit, ordinary design approval, or a one-off shortlist that does not need persistent indexing."
     },
     {
       "name": "sa-boo-visual-first-core",
@@ -805,19 +924,43 @@
       "description": "SA&BOO mandatory visual-first doctrine for every SA&BOO design, research, learning, proposal, prompt, CAD, rendering, FF&E, brand, and social-content skill. Use when Codex needs to apply the hard rule that a high-quality visual asset chain leads and text supports it. Must reject blurry, low-quality,"
     },
     {
+      "name": "sa-boo-visual-reasoning-critic",
+      "folder": "sa-boo-visual-reasoning-critic",
+      "skill_md": "codex_visual_stack/skills/sa-boo-visual-reasoning-critic/SKILL.md",
+      "file_count": 7,
+      "files": [
+        "SKILL.md",
+        "references/batch-critique-and-practice-learning.md",
+        "references/evidence-and-critique-examples.md",
+        "references/source-audit.md",
+        "references/visual-language-ontology.md",
+        "references/visual-reasoning-benchmarks.md",
+        "scripts/crop_visual_regions.py"
+      ],
+      "description": "Use when analyzing, comparing, or critiquing images, including color tone, grading, filters, lighting direction and quality, shadows, glow, atmospheric effects, reflections, refraction, and other optical treatments."
+    },
+    {
       "name": "sa-boo-visual-style-prompt-lab",
       "folder": "sa-boo-visual-style-prompt-lab",
       "skill_md": "codex_visual_stack/skills/sa-boo-visual-style-prompt-lab/SKILL.md",
-      "file_count": 6,
+      "file_count": 14,
       "files": [
         "SKILL.md",
-        "references/style-recipes.md",
+        "agents/openai.yaml",
+        "references/bilingual-art-style-ontology.md",
+        "references/bilingual-design-keyword-ontology.md",
+        "references/bilingual-prompt-translation.md",
+        "references/bilingual-tone-lighting-ontology.md",
+        "references/house-style-lineart-blueprint.md",
+        "references/house-style-liquid-silver.md",
+        "references/house-style-victorian-ornamental-line.md",
         "references/mcp-tool-routing.md",
         "references/prompt-operating-system.md",
-        "references/visual-style-radar-2026.md",
-        "agents/openai.yaml"
+        "references/style-mixer-mode.md",
+        "references/style-recipes.md",
+        "references/visual-style-radar-2026.md"
       ],
-      "description": "SA&BOO trend-aware text-to-image prompt laboratory for converting design intentions into controllable visual-style systems, drawing from current Canva/Adobe/Figma/Pinterest-like visual trends, SA&BOO prompt skills, and available image/Figma/Canva-style MCP routes. Use when the user asks to strengthe"
+      "description": "Use for writing, translating, normalizing, or strengthening bilingual image/video prompts and controllable visual-generation vocabulary. Do not use as the design owner for typography, brand, product, campaign, interior, or image critique."
     },
     {
       "name": "sa-boo-xiaohongshu-ip",
@@ -1152,5 +1295,19 @@
       ],
       "description": "SketchUp True Bend 1.2.1 workflow for SketchUp 2025 precise length-preserving bending of groups/components. Use when Codex needs to plan, prepare, audit, or guide bending linear interior objects such as trims, mouldings, slats, wall panels, curved counters, arches, railings, cabinet details, furnitu"
     }
+  ],
+  "updated_at": "2026-10-24",
+  "last_update_scope": "VI-related skills; public-safe reusable methods, no private project assets",
+  "vi_skills_updated": [
+    "sa-boo-brand-director",
+    "sa-boo-brand-manual-director",
+    "sa-boo-poster-graphic-design-director",
+    "chinese-lettering-design",
+    "sa-boo-visual-reasoning-critic",
+    "sa-boo-visual-style-prompt-lab",
+    "sa-boo-presentation-director",
+    "sa-boo-print-production-preflight",
+    "sa-boo-premium-reference-curator",
+    "sa-boo-visual-asset-index"
   ]
 }

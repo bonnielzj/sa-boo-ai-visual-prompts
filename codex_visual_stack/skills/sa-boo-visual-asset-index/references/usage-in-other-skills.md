@@ -19,20 +19,20 @@ How to use it:
 Default project index:
 
 ```bash
-INDEX="/Users/bonnie/Documents/学习项目/SA_BOO_Visual_Asset_Index/visual_assets.jsonl"
-python /Users/bonnie/.codex/skills/sa-boo-visual-asset-index/scripts/search_visual_assets.py --index "$INDEX" --query "D5 interior warm lighting material" --top 8 --format markdown
+INDEX="/path/to/project/visual-index/visual_assets.jsonl"
+python "$HOME/.codex/skills/sa-boo-visual-asset-index/scripts/search_visual_assets.py" --index "$INDEX" --query "D5 interior warm lighting material" --top 8 --format markdown
 ```
 
 Image similarity:
 
 ```bash
-python /Users/bonnie/.codex/skills/sa-boo-visual-asset-index/scripts/search_visual_assets.py --index "$INDEX" --image /path/to/reference.jpg --top 8 --format markdown
+python "$HOME/.codex/skills/sa-boo-visual-asset-index/scripts/search_visual_assets.py" --index "$INDEX" --image /path/to/reference.jpg --top 8 --format markdown
 ```
 
 Rebuild vectors and Markdown report:
 
 ```bash
-python /Users/bonnie/.codex/skills/sa-boo-visual-asset-index/scripts/rebuild_visual_index.py --out "/Users/bonnie/Documents/学习项目/SA_BOO_Visual_Asset_Index"
+python "$HOME/.codex/skills/sa-boo-visual-asset-index/scripts/rebuild_visual_index.py" --out "/path/to/project/visual-index"
 ```
 
 ## Rights reminders

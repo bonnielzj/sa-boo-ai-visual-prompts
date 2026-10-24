@@ -57,10 +57,17 @@ python3 scripts/search_visual_assets.py "戏剧感 小红书封面 聚光灯"
 
 包含：
 
-- `codex_visual_stack/skills/`：72 个视觉相关 Codex skill 备份，包含真实 `SKILL.md`、references、scripts（已排除密钥、缓存、大型专有二进制）。
+- `codex_visual_stack/skills/`：79 个视觉相关 Codex skill 备份，包含真实 `SKILL.md`、references、scripts（已排除密钥、缓存、大型专有二进制）。
 - `codex_visual_stack/mcp_templates/`：MCP / key / URL 占位模板，所有敏感值均为 `${PLACEHOLDER}`。
 - `codex_visual_stack/visual_chains/`：视觉资产链表、manifest、asset graph、vector index 示例。
 - `codex_visual_stack/project_examples/logicat_r16/`：Logicat R16 项目的非空 QA 视觉链样例，含 PNG、JSON 链表和 QA 报告。
 - `codex_visual_stack/manifests/visual_skills_manifest.json`：可检索 skill 清单。
 
 安全边界：不要提交真实 API key、token、私密 relay URL、`auth.json`、`secrets.json`、客户私密 CAD/SKP/DWG。模板中的 key/url 需要在本地私有配置中填写。
+
+
+## VI 相关 Skills 更新（2026-10-24）
+
+已将品牌/VI、品牌手册、平面与中文字体、视觉评审、提案、印前，以及配套的参考图、资产索引和 Prompt 方法同步至现有 `codex_visual_stack/skills/`。
+
+完整入口、10 项技能清单和使用边界见 [VI_SKILLS.md](codex_visual_stack/VI_SKILLS.md)。包含本次采用的精简评审与中英文字体比较方法。公开存储副本已排除私人参考图、歌词、客户项目素材和私人设计链接；本地原始技能不变。

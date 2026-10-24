@@ -45,3 +45,12 @@ cp -R codex_visual_stack/skills/<skill-name> "$HOME/.codex/skills/"
 cp codex_visual_stack/mcp_templates/codex_mcp_config.template.toml ./codex_mcp_config.local.toml
 # Fill placeholders locally, never commit the filled file.
 ```
+
+
+## VI-focused update — 2026-10-24
+
+See [VI_SKILLS.md](VI_SKILLS.md) for the ten updated VI-related skills, current
+font-comparison and critique guidance, optional runtime requirements, and export
+boundaries. This update adds or refreshes reusable methods in the existing
+`skills/` hierarchy; private reference collections and project evidence are not
+bundled. Existing license declarations and attribution remain in effect.

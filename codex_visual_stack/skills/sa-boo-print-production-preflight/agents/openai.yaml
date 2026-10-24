@@ -1,0 +1,4 @@
+interface:
+  display_name: "SA&BOO Print Production Preflight"
+  short_description: "Preflight large-format print artwork before vendor handoff."
+  default_prompt: "Use $sa-boo-print-production-preflight to preflight a hoarding, mural, signage, or large-format print file for ratio, DPI, bleed, panelization, and vendor-ready output."

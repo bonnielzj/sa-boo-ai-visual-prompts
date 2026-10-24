@@ -1,0 +1,6 @@
+interface:
+  display_name: "SA&BOO Premium Reference Curator"
+  short_description: "High-taste reference image curation baseline"
+  default_prompt: "Use $sa-boo-premium-reference-curator to collect and QA a high-quality visual reference library."
+policy:
+  allow_implicit_invocation: true

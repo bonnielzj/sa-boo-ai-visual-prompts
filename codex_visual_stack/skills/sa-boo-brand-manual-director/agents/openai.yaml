@@ -1,0 +1,4 @@
+interface:
+  display_name: "SA&BOO Brand Manual Director"
+  short_description: "Build adaptive brand manuals with gated QA"
+  default_prompt: "Use $sa-boo-brand-manual-director to inspect the supplied brand files, ask only unresolved startup questions in one compact Q&A, and build an adaptive visual identity manual."

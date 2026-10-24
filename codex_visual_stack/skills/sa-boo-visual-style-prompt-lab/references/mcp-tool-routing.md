@@ -1,78 +1,115 @@
 # MCP / Tool Routing for Visual Prompt Work
 
-Use this when the user asks which MCP, plugin, or tool should handle a visual task.
+Use this when the user asks which MCP, plugin, connector, or model route should
+handle a visual task, or a required capability is missing. Start with relevant
+tools exposed in the current session; do not enumerate unrelated tools or treat
+a dated snapshot as current availability.
 
-## Current usable routes in this Codex environment
+## Environment-specific discovery
 
-### Built-in image generation (`imagegen` skill + `image_gen` tool)
+Adobe/CAD bridges, Figma routes, and image backends are host capabilities, not
+included dependencies or proven connections in this package. Inspect only the
+relevant currently exposed capability. Historical tool names do not establish
+present installation, account access, or supported operations.
 
-Use for: bitmap concept images, product shots, social visuals, raster mockups, edits, style variants.
+## Proof within the actual task
 
-Route:
-`brief → prompt operating system → image_gen → inspect/iterate → save final asset if project-bound`
+An exposed, applicable capability may perform the authorized actual task directly.
+Its result and necessary readback or rendered inspection establish scoped proof;
+tool exposure alone does not prove success. Load required tool prerequisites and
+confirm the intended account/file before a write. Do not precede every call with
+a separate diagnostic generation or reversible mutation/export probe. Add a
+focused check when the account, backend, permissions, or required capability
+changes, or when actual execution reveals a failure. Preserve authorization and
+data-destination boundaries.
 
-Notes:
-- For transparent assets, use chroma-key removal first unless true native transparency is explicitly confirmed.
-- For exact text, generate background/visual separately and set typography in Figma/Canva/PPT.
+## Bitmap generation/editing — Bonnie route
 
-### Figma plugin skills/MCP tools
+Use:
 
-Use for: design systems, screens, components, layouts, diagrams, proposal pages, social cover systems, reusable templates.
+`brief/reference → concise prompt → current image generation/edit tool → inspect actual standard-resolution preview → targeted repair if needed → show result`
 
-Relevant skill routes:
-- `figma:figma-use` before Figma write/read actions.
-- `figma:figma-generate-design` for full screens/pages.
-- `figma:figma-generate-library` for components/tokens/design systems.
-- `figma:figma-generate-diagram` for FigJam/Mermaid-style diagrams.
-- `figma:figma-code-connect` for mapping Figma components to code.
+Rules:
 
-Best visual workflow:
-`prompt visual concept → generate/reference image if needed → build Figma layout with tokens/grid/text → export PNG/PDF/PPT`
+- Use the relevant image capability exposed in this session and its documented
+  inputs. A historical backend name does not override the current callable tool.
+- Do not print or persist credentials.
+- Check the actual preview for exact copy, character anatomy, count, supplied
+  logo integrity, and requested change; preserve unrelated regions during edits.
+- Use a local repair when it resolves a real text or identity defect. Enter an
+  editable layout or production workflow only when that deliverable is requested.
+- Upgrade to 2K/4K only after Bonnie selects the preview and explicitly requests it.
 
-### Browser/control and shell/node
+Upstream OpenAI reference: https://developers.openai.com/api/docs/guides/image-generation
 
-Use for: inspecting public trend pages, capturing references where permitted, comparing visual examples, building local moodboard HTML, scraping only compliant public data.
+## Canva: design connector vs developer-docs MCP
 
-### Documents / presentations / pdf
+Do not conflate these two products:
 
-Use for: turning prompt systems into client-facing proposal decks, PDF trend reports, prompt playbooks, or workshop material.
+1. **Canva plugin / AI Connector**
+   - Production route for searching, creating, editing, resizing, translating, and exporting designs after install and authorization.
+   - Canva's Magic Layers workflow can convert a flat image into editable design layers in supported AI-assistant integrations. Confirm the exact tool is exposed after connection.
+   - Official capability source: https://www.canva.com/newsroom/news/magic-layers-ai-assistants/
 
-## Canva MCP route — available as official remote MCP, not necessarily installed here
+2. **Canva Developer MCP**
+   - Endpoint: `https://mcp.canva.dev/mcp`
+   - Purpose: answer Canva Apps SDK development questions.
+   - Limitation: cannot create or edit Canva designs.
+   - Official docs: https://www.canva.dev/docs/mcp/
 
-Official docs: https://www.canva.dev/docs/mcp/
+The current official Canva developer documentation lists `https://mcp.canva.com/mcp` as the remote server. Do not confuse it with the separate Canva developer-docs MCP page or with a local Canva plugin; production access still depends on client support, waitlist/eligibility where applicable, OAuth, and scopes.
 
-Canva states its MCP can support design generation/editing, design discovery, asset and brand management, export in multiple formats, and comments. It uses remote server:
+## Figma official MCP
 
-`https://mcp.canva.com/mcp`
+Remote endpoint: `https://mcp.figma.com/mcp`
 
-If an AI assistant does not support remote MCP directly, Canva documents `mcp-remote` as a bridge. Setup generally requires a Canva account, OAuth/connector authorization, and a client that supports MCP. Some integrations may require waitlist/allowlist or plan-specific features.
+Current official capabilities include reading design context, screenshots, variables/components, asset download, `create_new_file`, FigJam diagram generation, Code Connect, and supported write-to-canvas workflows. Remote OAuth authorization is required; supported clients, plan, seat, and beta status can limit availability.
 
-Use when connected:
-`brief → Canva template/brand kit search → generate or edit design → resize/export → comment/review`
+Official docs:
 
-Do not claim Canva MCP is active unless the current tool list exposes a callable Canva tool.
+- https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/
+- https://developers.figma.com/docs/figma-mcp-server/tools-and-prompts/
 
-## Figma official MCP context
+Best route when connected:
 
-Official blog: https://www.figma.com/blog/introducing-figma-mcp-server/
+`prompt/reference image → Figma target selection → reuse variables/components → write/edit canvas → screenshot/visual QA → export`
 
-Figma frames MCP as design-context for coding/design workflows: component metadata, variables/styles, screenshots, interactivity/code representation, and content/layer names help LLMs preserve design intent. In this Codex environment, prefer existing Figma plugin skills for actual file creation/editing unless a separate official Figma MCP is explicitly available.
+## Adobe production routes
 
-## Plugin installation policy for this environment
+Use a currently exposed Adobe connector or relevant native bridge when the
+requested deliverable needs it. Historical discovery hints include Illustrator
+MCP/JSX, `hermes-photoshop-jsx`, and `hermes-indesign-jsx`; use them only when
+available and applicable. Follow the proof and permission rule above. A past
+absence of a Firefly connector does not establish its current availability.
 
-- Install only if a matching plugin/connector appears in the available install list and exactly matches the user's request.
-- If no Canva/Pinterest/Behance/Adobe plugin is available, report that clearly and provide future setup steps.
-- Do not modify local proxy or AiMaMi relay configuration.
-- For private/client files, ask before connecting external accounts or uploading assets.
+## MCP compatibility gate
+
+- Treat `2025-11-25` as the current stable MCP protocol revision unless official docs show a newer stable release.
+- Draft features and extensions such as Tasks, Apps, Skills over MCP, or new server discovery should be capability-negotiated; do not assume every client/server supports them.
+- Prefer stable primitives for production: tools, resources, prompts, sampling, roots, authorization, and explicit capability negotiation.
+- Check schema version, auth method, read/write scope, data destination, and destructive actions before connecting a server.
+
+Sources:
+
+- https://modelcontextprotocol.io/specification
+- https://modelcontextprotocol.io/development/roadmap
+
+## Installation and authorization policy
+
+- This automation may install only a clearly matching curated/official plugin after user approval.
+- Do not modify unrelated text-provider or relay configuration during a visual task.
+- Ask before authorizing external accounts or exposing private/client files.
+- Start with the narrowest scopes and test with non-client assets.
 
 ## Decision matrix
 
-| Goal | Best route | Why |
+| Goal | Best route | Gate |
 |---|---|---|
-| Visual concept image | imagegen | Fast bitmap exploration |
-| Exact typography social cover | imagegen background + Figma/Canva layout | Models often distort text |
-| Brand kit / reusable templates | Figma or Canva MCP if connected | Tokens, layouts, exports |
-| Proposal deck | presentations/pdf + Figma assets | Client-ready structure |
-| Web/UI direction | Figma generate-design + optional imagegen hero | System/grid/control |
-| Trend research | web/browser + design-research-radar | Current evidence needed |
-| Batch content calendar visuals | prompt matrix + Figma/Canva templates | Consistency and speed |
+| Visual concept image | current exposed image tool | inspect the actual standard-resolution result |
+| Multi-reference edit | current edit tool + reference roles and preserve/change contract | actual target and preserved-region checks; add a focused capability check only on change or failure |
+| Exact typography social cover | compose real copy with the image; local repair if needed | actual copy and supplied identity check; external authorization when required |
+| Editable brand kit/templates | current applicable editable connector | intended account/file, required permissions, actual readback/export |
+| Proposal deck | current `Presentations`/PDF skills + optional requested assets | inspect actual deck/export; preserve external authorization boundaries |
+| Web/UI direction | Product Design + Figma + local prototype/browser QA | target file, prerequisite skills, and write permission |
+| Trend research | web/browser + design-research-radar | source/date/rights check |
+| Batch campaign system | requested variants/formats; editable template only for a requested editable system | brand locks + actual output checks |

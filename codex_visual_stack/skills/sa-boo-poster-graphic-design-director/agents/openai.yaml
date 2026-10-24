@@ -1,0 +1,6 @@
+interface:
+  display_name: "SA&BOO Poster & Graphic Design Director"
+  short_description: "海报与 KV 的国际化平面工艺、字体、构图及交付指导"
+  default_prompt: "Use $sa-boo-poster-graphic-design-director to turn this approved campaign territory into a distinctive poster system with evidence-led composition studies and an editable master."
+policy:
+  allow_implicit_invocation: true

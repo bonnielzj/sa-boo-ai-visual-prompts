@@ -1,4 +1,4 @@
 interface:
   display_name: "SA&BOO Visual Style Prompt Lab"
-  short_description: "Trend-aware prompt systems for SA&BOO visuals."
-  default_prompt: "Use $sa-boo-visual-style-prompt-lab to convert my visual idea into trend-aware text-to-image prompts with variables, negative prompts, and tool/MCP routing."
+  short_description: "Bilingual design-keyword, style, tone, and prompt systems."
+  default_prompt: "Use $sa-boo-visual-style-prompt-lab to normalize cross-domain design keywords and build sophisticated bilingual prompts for 3D, typography, IP characters, tone, and lighting."
